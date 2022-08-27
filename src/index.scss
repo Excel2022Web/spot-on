@@ -1,0 +1,262 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+  
+/* VARIABLES */
+:root {
+    --primary-font: 'Raleway', sans-serif;
+    --secondary-font: 'Work Sans', sans-serif;
+    --bg-color: #E6F4F4;
+    --primary-color: #0B8B8B;
+    --secondary-color: #D70F0F;
+    --text-main: #1E2029;
+    --white:#ffffff;
+}
+
+/* navbar */
+.title{
+    color: #D70F0F;
+    font-weight: 600;
+    font-size: 22px;
+}
+.navbar{
+    background-color: transparent;
+    position: sticky;
+    top: 0;
+}
+.nav-item{
+
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+
+text-align: center;
+color: var(--white);
+
+}
+section{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+
+}
+
+  
+/* homepage */
+
+.mainbg{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    margin-bottom: 5px;
+    
+}
+
+
+
+
+
+/*lobby */
+
+.lobby-text{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 20px;
+text-align: center;
+
+}
+
+.icons{
+    height: 74px;
+    width: 74px;
+    object-fit: scale-down;
+}
+
+.maintext{
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 38px;
+/* or 117% */
+
+letter-spacing: -0.5px;
+color: var(--white);
+}
+.box1{
+    position: absolute;
+width: 361px;
+height: 161px;
+left: 952px;
+top: 270px;
+}
+
+.overlay{
+    width: 100%;
+    height: 70vh;
+    background: rgba(255, 255, 255, 0.005);
+box-shadow: 0px 1.1966px 29.915px rgba(69, 42, 124, 0.1);
+backdrop-filter: blur(2px);
+}
+
+.button1{
+    background-color:var(--secondary-color);
+}
+
+
+.about-title{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 34px;
+line-height: 54px;
+border-left: 5px solid var(--secondary-color);
+
+
+color: var(--text-main);
+
+}
+
+.about-text{
+ 
+
+font-family: 'Poppins';
+font-style: italic;
+font-weight: 400;
+
+
+
+color: #191616;
+}
+.about-text-box{
+
+    
+    
+
+    position: absolute;
+    padding: 20px 20px;
+    display: block;
+    margin: auto;
+}
+.button2{
+    font-weight: 400;
+    background-color:var(--text-main);
+}
+
+
+/*PHASES*/
+
+.phases{
+    background-color: var(--text-main);
+}
+
+.container1{
+    background: linear-gradient(152.97deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+backdrop-filter: blur(42px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 16px;
+}
+
+
+/*phase */
+
+.phase-text{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22x;
+
+color: #FFFFFF;
+}
+
+.phase-title{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 34px;
+line-height: 51px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.border-radial{
+    
+    border-style: solid;
+  border-width: 0.5px;
+    border-image: radial-gradient(var(--secondary-color), #fff) 3 ;
+}
+
+
+/*contact */
+
+
+  
+  .a-box {
+    display: inline-block;
+    width: 208px;
+    text-align: center;
+    height: 155px;
+  }
+  
+  .img-container {
+      height: 130px;
+      width: 130px;
+      overflow: hidden;
+      
+      display: inline-block;
+      outline: 1.5px solid;
+      outline-color: #D70F0F;
+      padding: 5px;
+      
+      background: linear-gradient(152.97deg, rgba(255, 255, 255, 0.2) 4.27%, rgba(255, 255, 255, 0) 104.27%);
+backdrop-filter: blur(42px)
+  }
+  
+  .img-container img {
+      
+      height: 120px;
+    
+      
+  }
+  
+
+  
+  .text-container {
+   
+    padding: 60px 20px 20px 20px;
+    
+    background: var(--text-main);
+    font-family: 'Poppins';
+    font-weight: 400;
+    margin: -70px 0px 0px 0px;
+    line-height: 16px;
+    font-size: 14px;
+    color: #FFFFFF;
+  }
+  
+  .text-container h3 {
+    margin: 10px 0px 10px 0px;
+    color: #FFFFFF;
+    
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 33px;
+text-align: center;
+  }
