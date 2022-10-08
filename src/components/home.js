@@ -3,10 +3,10 @@ import mainbg from "../assets/mainbg.png";
 
 export const Home = () => {
   return (
-    <div>
+    <div className="">
       <div className="overlay"></div>
       <div className="grid grid-rows-2">
-        <div className="absolute ml-5 md:left-[700px] xl:left-[952px] top-[200px] xl:md:top-[270px]">
+        <div className="absolute ml-5 md:left-[6cd00px] xl:left-[952px] top-[200px] xl:md:top-[270px] px-2">
           <p className="maintext ">
             Communication <br />
             works for those who

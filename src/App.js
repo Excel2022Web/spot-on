@@ -10,19 +10,20 @@ import { Home } from "./components/home";
 
 function App() {
   return (
-    <div>
+    
+    <div className="md:scroll-pt-[64px]">
       <Navbar />
 
-      <section className="home" id="home">
+      <section className="home " id="home">
         <Home />
       </section>
-      <Lobby />
+      <div ><Lobby /></div>
 
-      <div className="about md:h-[100vh] xl:h-[100vh] md:pt-4" id="about">
+      <div className="about md:h-[100vh] xl:h-[100vh] " id="about">
         <Aboutpage />
       </div>
 
-      <div className="phases md:h-[100vh] md:pt-5" id="phases">
+      <div className="phases md:h-[100vh] " id="phases">
         <Phases />
       </div>
 

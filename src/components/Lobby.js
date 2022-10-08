@@ -1,8 +1,53 @@
 import React from "react";
-import vec1 from "../assets/vec1.png";
-import vec2 from "../assets/vec2.png";
-import vec3 from "../assets/vec3.png";
-import vec4 from "../assets/vec4.png";
+import vec1 from "../assets/vec11.svg";
+import vec2 from "../assets/vec22.svg";
+import vec3 from "../assets/vec33.png";
+import vec4 from "../assets/vec44.png";
+
+function reveal() {
+  var reveals = document.querySelectorAll(".reveal");
+  var reveals1 = document.querySelectorAll(".reveal1");
+
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementTop1 = reveals1[i].getBoundingClientRect().top;
+    var elementVisible = 150;
+
+    if (elementTop < windowHeight - elementVisible ||elementTop1<windowHeight-elementVisible) {
+      reveals[i].classList.add("active");
+      reveals1[i].classList.add("active");
+    } else {
+      reveals[i].classList.remove("active");
+      reveals1[i].classList.remove("active");
+    }
+  }
+}
+
+window.addEventListener("scroll", reveal);
+
+export function reveal2() {
+  var reveals = document.querySelectorAll(".home");
+  
+
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+   
+    var elementVisible = 150;
+
+    if (elementTop < windowHeight - elementVisible ) {
+      reveals[i].classList.add("active");
+      
+    } else {
+      reveals[i].classList.remove("active");
+  
+    }
+  }
+}
+
+window.addEventListener("scroll", reveal2);
+
 
 export const Lobby = () => {
   return (
@@ -13,7 +58,7 @@ export const Lobby = () => {
           alt="Laptop on Desk"
           width="200"
           height="200"
-          class="md:w-1/2  mx-auto rounded-t-lg md:rounded-l-lg md:rounded-t-none icons"
+          class="md:w-1/2  mx-auto rounded-t-lg md:rounded-l-lg md:rounded-t-none icons pointer-events-none"
         />
         <div class="p-6">
           <h2 class=" mx-auto  lobby-text">
@@ -29,7 +74,7 @@ export const Lobby = () => {
           alt="Laptop on Desk"
           width="200"
           height="200"
-          class="md:w-1/2 mx-auto rounded-t-lg md:rounded-l-lg md:rounded-t-none icons"
+          class="md:w-1/2 mx-auto rounded-t-lg md:rounded-l-lg md:rounded-t-none icons pointer-events-none"
         />
         <div class="p-6">
           <h2 class="  mx-auto lobby-text">Networking</h2>
@@ -42,7 +87,7 @@ export const Lobby = () => {
           alt="Laptop on Desk"
           width="200"
           height="200"
-          class="md:w-1/2 mx-auto rounded-t-lg md:rounded-l-lg md:rounded-t-none icons"
+          class="md:w-1/2 mx-auto rounded-t-lg md:rounded-l-lg md:rounded-t-none icons pointer-events-none"
         />
         <div class="p-6">
           <h2 class=" mx-auto lobby-text">Expert Feedback</h2>
@@ -55,7 +100,7 @@ export const Lobby = () => {
           alt="Laptop on Desk"
           width="200"
           height="200"
-          class="md:w-1/2 mx-auto rounded-t-lg md:rounded-l-lg md:rounded-t-none icons"
+          class="md:w-1/2 mx-auto rounded-t-lg md:rounded-l-lg md:rounded-t-none icons pointer-events-none"
         />
         <div class="p-6">
           <h2 class=" mx-auto  lobby-text">

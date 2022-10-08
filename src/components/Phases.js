@@ -10,11 +10,11 @@ export const Phases = () => {
 
   return (
     <div className="bg-[#1E2029] text-white px-2 md:px-10 md:h-100 ">
-      <div className="flex flex-row items-center pl-10">
+      <div className="flex flex-row items-center pl-10 ">
         <div className="w-[6px] h-[38px] bg-[#D70F0F] pt-2 overflow-x-hidden"></div>
-        <h3 className="text-[32px] py-2 px-2">PHASES</h3>
+        <h3 className="text-[32px] py-5 px-2">PHASES</h3>
       </div>
-      <div className="flex flex-col md:flex-row justify-center p-4 gap-10 md:gap-20">
+      <div className="flex flex-col md:flex-row justify-center pb-4 px-10 gap-10 md:gap-20">
         <div className={phaseCardStyle}>
           <h4 className={phaseNumberStyle}>PHASE 1</h4>
           <h5 className={phaseNameStyle}>GROUP JAM</h5>
