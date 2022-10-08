@@ -18,8 +18,8 @@ function App() {
      <div className='overlay'></div>
     <div className='grid grid-rows-2'>
     <div className='box1'>
-          <p className='maintext '>Communication <br/>works for those who<br/> work at it <br/></p>
-<p className='maintext mt-1'>- John Powell</p>
+          <p className='maintext '>MAKE YOUR <br/>VOICE COUNT!<br/></p>
+
 <button class="button1 text-white font-bold py-2 px-4 mt-2 rounded">
   REGISTER NOW
 </button>
