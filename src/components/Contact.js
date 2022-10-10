@@ -11,6 +11,7 @@ import instagram from "../assets/instagram.png";
 import { BsFacebook ,BsLinkedin,BsTwitter,BsTelephoneFill,BsFillEnvelopeFill} from "react-icons/bs";
 import { RiInstagramFill } from "react-icons/ri";
 
+
 export const Contact = () => {
   return (
     <div className="md:h-[100vh] ">
@@ -94,6 +95,7 @@ export const Contact = () => {
         </div>
       </div>
       <div className="bg-[#1E2029] min-h-[344px]  text-white p-5 md:px-5 md:py-0 flex flex-col justify-evenly items-center gap-8 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-4">
+        
         <div className="flex flex-col md:flex-row justify-end items-center gap-4 md:gap-16 md:col-end-3 md:row-end-3 ">
           <div ><a href="home" className="hover:underline hover:text-white">HOME</a></div>
           <div ><a href="home" className="hover:underline hover:text-white">ABOUT</a> </div>

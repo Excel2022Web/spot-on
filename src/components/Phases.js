@@ -1,5 +1,6 @@
 import React from "react";
 
+
 export const Phases = () => {
   const phaseCardStyle =
     "w-auto flex-1  h-auto p-2 md:p-4 container1  rounded-xl border-[0.5px] pt-5 ";
@@ -9,7 +10,8 @@ export const Phases = () => {
   const phaseDescriptionStyle = "p-4 text-[16px] md:text-[18px]";
 
   return (
-    <div className="bg-[#1E2029] text-white px-2 md:px-10 md:h-100 ">
+    <div className="bg-[#8D0A0A] text-white px-2 md:px-10 md:h-100 ">
+        
       <div className="flex flex-row items-center pl-10 ">
         <div className="w-[6px] h-[38px] bg-[#D70F0F] pt-2 overflow-x-hidden"></div>
         <h3 className="text-[32px] py-5 px-2">PHASES</h3>

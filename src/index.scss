@@ -1,7 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import "~bootstrap/scss/bootstrap";
+
+
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,700,900");
 
 * {
@@ -30,6 +31,7 @@ body{
   --primary-color: #0b8b8b;
   --secondary-color: #d70f0f;
   --text-main: #1e2029;
+  --newtext-main: #8D0A0A;
   --white: #ffffff;
 }
 
@@ -149,15 +151,15 @@ section {
 /*PHASES*/
 
 .phases {
-  background-color: var(--text-main);
+  background-color: var(--newtext-main);
   
 }
 
 .container1 {
   background: linear-gradient(
     152.97deg,
-    rgba(255, 255, 255, 0.2) 0%,
-    rgba(255, 255, 255, 0) 100%
+    rgba(215, 215, 215, 0.2) 0%,
+    rgba(215, 215, 215, 0) 100%
   );
   backdrop-filter: blur(42px);
   /* Note: backdrop-filter has minimal browser support */
@@ -216,7 +218,7 @@ section {
   background: linear-gradient(
     152.97deg,
     rgba(255, 255, 255, 0.2) 4.27%,
-    rgba(255, 255, 255, 0) 104.27%
+    rgba(215, 215, 215, 0) 104.27%
   );
   backdrop-filter: blur(42px);
 }

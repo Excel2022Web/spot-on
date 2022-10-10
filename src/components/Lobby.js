@@ -51,7 +51,7 @@ window.addEventListener("scroll", reveal2);
 
 export const Lobby = () => {
   return (
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mx-20 ">
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mx-20 mt-12 ">
       <div class=" rounded-lg  ">
         <img
           src={vec1}

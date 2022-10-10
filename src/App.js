@@ -1,6 +1,5 @@
 import { Navbar } from "./components/Navbar";
-import mainbg from "./assets/mainbg.png";
-import vec1 from "./assets/vec1.png";
+
 import { Lobby } from "./components/Lobby";
 import mic from "./assets/mic.png";
 import { Aboutpage } from "./components/aboutpage";
@@ -12,7 +11,7 @@ function App() {
   return (
     
     <div className="md:scroll-pt-[64px]">
-      <Navbar />
+     
 
       <section className="home " id="home">
         <Home />
