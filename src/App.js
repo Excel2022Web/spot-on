@@ -10,8 +10,9 @@ import { Home } from "./components/home";
 function App() {
   return (
     
+    
     <div className="md:scroll-pt-[64px]">
-     
+     <Navbar/>
 
       <section className="home " id="home">
         <Home />

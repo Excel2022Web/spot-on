@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Navbar = () => {
   return (
-    <nav class=" navbar navbar-expand-lg navbar-dark z-3 shadow-sm bg-transparent-100 fixed">
+    <nav class=" navbar navbar-expand-lg navbar-light z-3 shadow-sm bg-white fixed z-10">
    
     <div class="container-fluid">
     <a class="navbar-brand d-lg-none title mx-auto" href="#">SPOT ON</a>
