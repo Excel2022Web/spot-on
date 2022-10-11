@@ -31,7 +31,7 @@ export const Navbar = () => {
         </div>
         <button class="d-lg-none first-button mr-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
     aria-controls="navbarSupportedContent20" aria-expanded="false" aria-label="Toggle navigation">
-    <div class="navbar-toggler animated-icon1"><span></span><span></span><span></span></div>
+    <div class="navbar-togglerY animated-icon1"><span></span><span></span><span></span></div>
   </button>
 
 

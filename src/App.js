@@ -6,6 +6,7 @@ import { Aboutpage } from "./components/aboutpage";
 import { Phases } from "./components/Phases";
 import { Contact } from "./components/Contact";
 import { Home } from "./components/home";
+import { Footer } from "./components/footer";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
 
       <div className="contact md:h-[100vh] " id="contact">
         <Contact />
+      
       </div>
     </div>
   );
