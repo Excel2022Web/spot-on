@@ -256,10 +256,14 @@ section {
 
 /*PHASES*/
 
-.phases {
-  background-color: var(--newtext-main);
+.phasesbg {
+  background-image: url('./assets/phases.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
   
 }
+
+
 
 .container1 {
 background: linear-gradient(152.97deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
@@ -484,7 +488,6 @@ a :hover{
 .footer-bg{
     background-image: url('./assets/Wavefooterwave.png');
     background-repeat: no-repeat;
-  
     background-position: bottom;
     background-size: 100%;
 }

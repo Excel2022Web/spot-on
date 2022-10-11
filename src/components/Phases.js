@@ -1,4 +1,5 @@
 import React from "react";
+import phases from "../assets/phases.svg";
 
 
 export const Phases = () => {
@@ -10,7 +11,7 @@ export const Phases = () => {
   const phaseDescriptionStyle = "p-4 text-[16px] md:text-[18px]";
 
   return (
-    <div className="bg-[#8D0A0A] text-white px-2 md:px-10 md:h-100 ">
+    <div className="phasesbg absolute w-full h-full bg-cover text-white px-2 md:px-10 md:h-100 ">
         
       <div className="flex flex-row items-center pl-10 ">
         <div className="w-[6px] h-[38px] bg-[#D70F0F] pt-2 overflow-x-hidden"></div>
