@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'phases-back': "url('/assets/phases.svg')",
+      }
+
+    },
   },
   plugins: [],
 }
