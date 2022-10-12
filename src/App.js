@@ -1,51 +1,38 @@
+import { Navbar } from "./components/Navbar";
 
-import { Navbar } from './components/Navbar';
-import mainbg from './assets/mainbg.png'
-import vec1 from './assets/vec1.png'
-import { Lobby } from './components/Lobby';
-import mic from './assets/mic.png'
-import { Aboutpage } from './components/aboutpage';
-import { Phases } from './components/Phases';
+import { Lobby } from "./components/Lobby";
+import mic from "./assets/mic.png";
+import { Aboutpage } from "./components/aboutpage";
+import { Phases } from "./components/Phases";
+import { Contact } from "./components/Contact";
+import { Home } from "./components/home";
+import { Footer } from "./components/footer";
 
 function App() {
   return (
-    <div>
+    
+    
+    <div className="md:scroll-pt-[64px]">
      <Navbar/>
-      
-      
-      <section className='home' id='home'>
-    
-     <div className='overlay'></div>
-    <div className='grid grid-rows-2'>
-    <div className='box1'>
-          <p className='maintext '>Communication <br/>works for those who<br/> work at it <br/></p>
-<p className='maintext mt-1'>- John Powell</p>
-<button class="button1 text-white font-bold py-2 px-4 mt-2 rounded">
-  REGISTER NOW
-</button>
 
-        </div>
-    <div className='-z-10  w-full   '>
-        <img src={mainbg} className="mainbg absolute top-0 mb-5"/>
-        </div>
-        
-    
-    
-    </div>
+      <section className="home " id="home">
+        <Home />
       </section>
-     <Lobby/>
+      <div ><Lobby /></div>
 
-     <section id='about'>
-      <Aboutpage/>
-     </section>
+      <div className="about md:h-[100vh] xl:h-[100vh] " id="about">
+        <Aboutpage />
+      </div>
 
-     <section className='phases' id="phases">
-      <Phases/>
+      <div className="phases md:h-[100vh] " id="phases">
+        <Phases />
+      </div>
 
-     </section>
-
-     </div>
-     
+      <div className="contact md:h-[100vh] " id="contact">
+        <Contact />
+      
+      </div>
+    </div>
   );
 }
 
