@@ -96,7 +96,7 @@ export const Contact = () => {
       <div className=" footer-bg min-h-[344px]  text-white p-5 md:px-5 md:py-0 flex flex-col justify-evenly items-center gap-8 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-4">
         
    
-        <div className="flex flex-row justify-end items-center gap-8 md:gap-16  ">
+        <div className="flex flex-row justify-end items-center gap-8 md:gap-16 md:col-start-1 md:row-start-3">
           <a href="" className="hover:text-white">
           <BsFacebook size={22} fill="#D31E1E"/>
             
@@ -110,6 +110,9 @@ export const Contact = () => {
           <a href="">
             <BsLinkedin size={22} fill="#D31E1E"/>
           </a>
+        </div>
+         <div className=" text-[#D31E1E] ">
+          <p>Made with ❤️ Excel 2022</p>
         </div>
         <div>
           <img
