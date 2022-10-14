@@ -27,7 +27,7 @@ export const Home = () => {
         </div>
   
       
-        <div className=" ml-5 px-2 absolute top-[112px] left-[300px] xl:left-[952px] top-[200px] xl:md:top-[270px] px-2">
+        <div className=" ml-5 px-2 absolute top-[112px] left-[200px] xl:left-[952px] top-[200px] xl:md:top-[270px] px-2">
           <p className="maintext  ">
             MAKE YOUR <br />
             VOICE COUNT!

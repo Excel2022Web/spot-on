@@ -5,6 +5,7 @@ import linkedin from "../assets/linkedin.png";
 import email from "../assets/email.png";
 import samantha from "../assets/Samantha.png";
 import excellogo from "../assets/excel_logo.svg";
+import modellogo from '../assets/modellogo.svg'
 
 import { BsFacebook ,BsLinkedin,BsTwitter,BsTelephoneFill,BsFillEnvelopeFill} from "react-icons/bs";
 import { RiInstagramFill } from "react-icons/ri";
@@ -93,10 +94,9 @@ export const Contact = () => {
           </div>
         </div>
       </div>
-      <div className=" footer-bg min-h-[344px]  text-white p-5 md:px-5 md:py-0 flex flex-col justify-evenly items-center gap-8 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-4">
-        
-   
-        <div className="flex flex-row justify-end items-center gap-8 md:gap-16 md:col-start-1 md:row-start-3">
+      <div className=" footer-bg min-h-[344px]  text-white p-5 md:px-5 md:py-0 flex flex-col justify-evenly items-center gap-8 md:grid md:grid-cols-3 md:grid-rows-2 md:gap-4">
+        <div className="flex flex-col content-center items-center md:col-start-2 md:row-start-3 order-3">
+                  <div className="flex flex-row justify-end items-center gap-8 md:gap-16 md:col-start-2 md:row-end-1">
           <a href="" className="hover:text-white">
           <BsFacebook size={22} fill="#D31E1E"/>
             
@@ -114,12 +114,22 @@ export const Contact = () => {
          <div className=" text-[#D31E1E] ">
           <p>Made with ❤️ Excel 2022</p>
         </div>
-        <div>
+        </div>
+   
+
+        <div className="md:absolute md:col-start-1 md:row-start-3">
           <img
-            className=" md:absolute md:left-[114px]  "
+            className="   "
             src={excellogo}
           />
         </div>
+           <div className="md:absolute md:col-start-3 md:row-start-3 xl:md:left-[1198px]">
+          <img
+            className="  "
+            src={modellogo}
+          />
+        </div>
+       
        
       </div>
       
