@@ -1,8 +1,10 @@
 import React from 'react'
-import { Carousel } from './Carousel';
-import { Phases } from './Phases';
 
-export const Responsivehook = () => {
+import { Home } from './home';
+import Homemobile from './homemobile';
+
+
+export const Responsivehook1 = () => {
       const [width, setWidth] = React.useState(window.innerWidth);
   const breakpoint = 1224;
 
@@ -13,6 +15,6 @@ export const Responsivehook = () => {
     // Return a function from the effect that removes the event listener
     return () => window.removeEventListener("resize", handleWindowResize);
   }, []);
- return width < breakpoint ? <Carousel/> : <Phases />;
+ return width < breakpoint ? <Homemobile/> : <Home/>;
 }
 

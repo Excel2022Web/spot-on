@@ -6,9 +6,12 @@ import { Aboutpage } from "./components/aboutpage";
 import { Phases } from "./components/Phases";
 import { Contact } from "./components/Contact";
 import { Home } from "./components/home";
-import { Footer } from "./components/footer";
+
 import { Carousel } from "./components/Carousel";
 import { Responsivehook } from "./components/Responsivehook";
+import Footer from "./components/footer";
+import Homemobile from "./components/homemobile";
+import { Responsivehook1 } from "./components/Responsivehook.1";
 
 function App() {
   const CARDS = 10;
@@ -27,7 +30,7 @@ const Card = ({title, content}) => (
      <Navbar/>
 
       <section className="home " id="home">
-        <Home />
+        <Responsivehook1/>
       </section>
       <div ><Lobby /></div>
 
@@ -35,7 +38,7 @@ const Card = ({title, content}) => (
         <Aboutpage />
       </div>
 
-      <div className="phases md:h-[100vh] " id="phases">
+      <div className=" " id="phases">
         <Responsivehook/>
       </div>
 

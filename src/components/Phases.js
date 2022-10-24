@@ -7,16 +7,16 @@ export const Phases = () => {
   const phaseNumberStyle =
     "text-center text-[28px] md:text-[30px] font-semibold";
   const phaseNameStyle = "text-center  text-[18px] md:text-[22px]";
-  const phaseDescriptionStyle = "p-4 text-[16px] md:text-[18px]";
+  const phaseDescriptionStyle = "p-4 md:p-6 text-[16px] md:text-[18px]";
 
   return (
-    <div className=" phasesbg text-white px-2  md:h-100 ">
+    <div className=" phasesbg text-white px-2  md:h-[100vh] ">
         
       <div className="flex flex-row items-center pl-10 ">
         <div className="w-[6px] h-[38px] bg-[#D70F0F] pt-2 overflow-x-hidden"></div>
         <h3 className="text-[32px] py-5 px-2">PHASES</h3>
       </div>
-      <div className="flex flex-col md:flex-row justify-center pb-4 px-10 gap-10 md:gap-20">
+      <div className="flex flex-col md:flex-row justify-center pb-4 px-10 gap-10 md:gap-10">
         <div className={phaseCardStyle}>
           <h4 className={phaseNumberStyle}>PHASE 1</h4>
           <h5 className={phaseNameStyle}>GROUP JAM</h5>

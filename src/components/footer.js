@@ -1,47 +1,71 @@
-import React from 'react'
-import wave from '../assets/Wavefooterwave.png';
-import excellogo from '../assets/excel_logo.svg';
-import adam from "../assets/Andrew.png";
-import phone from "../assets/phone.png";
-import linkedin from "../assets/linkedin.png";
-import email from "../assets/email.png";
-import samantha from "../assets/Samantha.png";
-import { BsFacebook ,BsLinkedin,BsTwitter,BsTelephoneFill,BsFillEnvelopeFill} from "react-icons/bs";
-import { RiInstagramFill } from "react-icons/ri";
+import React from "react"
+import { FiFacebook, FiLinkedin, FiInstagram, FiTwitter } from "react-icons/fi"
+import { FaHeart } from "react-icons/fa"
 
 
-
-export const Footer = () => {
-    const style = { color: "red"}
+import excel_logo from "../assets/excel_logo.svg"
+import mec_logo from "../assets/modellogo.svg"
+const Footer = () => {
   return (
-   <div>
-     <img src={wave} className="static bottom-0 w-full self-center"/>
-     <div className="flex flex-row justify-end items-center gap-4 md:gap-16 md:col-end-3 md:row-start-1">
-          <a href="" className="hover:text-white">
-          <BsFacebook size={22}/>
-            
-          </a>
-          <a href="" >
-            <RiInstagramFill size={22} style={style}/>
-          </a>
-          <a href="">
-            <BsTwitter size={22}/>
-          </a>
-          <a href="">
-            <BsLinkedin size={22} />
-          </a>
+    <div id="footer">
+      <div className="container footer__main">
+        <div className="footer-social">
+          <div className="footer-social-college">
+            <a href="https://www.mec.ac.in/" target="_blank" rel="noreferrer">
+              <img src={mec_logo} className="mec__logo" alt="mec_logo" />
+            </a>
+          </div>
+          
+          <div className="footer-social-socialmedia">
+            <a
+              href="https://www.facebook.com/excelmec"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FiFacebook
+                style={{ border: "none" }}
+                className="contact_social_icon"
+              />
+            </a>
+            <a
+              href="https://www.instagram.com/excelmec/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FiInstagram className="contact_social_icon" />
+            </a>
+            <a
+              href="https://www.linkedin.com/company/excelmec/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FiLinkedin className="contact_social_icon" />
+            </a>
+            <a
+              href="https://twitter.com/excelmec"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FiTwitter className="contact_social_icon" />
+            </a>
+          </div>
+
+          <div className="footer-social-event">
+            <a href="https://excelmec.org/" target="_blank" rel="noreferrer">
+              <img src={excel_logo} className="excel__logo" alt="excel_logo" />
+            </a>
+          </div>
         </div>
-        <div>
-          <img
-            className="h-[117px] w-[117px] md:col-start-1 md:row-start-1 "
-            src={excellogo}
-          />
-        </div>
-        <div className=" ">
-          <p className='text-'>Made with 🤍 Excel 2022</p>
+        <div className="footer-madewith">
+          Made with{" "}
+          <span>
+            <FaHeart className="footer_heart" />
+          </span>{" "}
+          Excel 2022
         </div>
       </div>
-
-    
+    </div>
   )
 }
+
+export default Footer

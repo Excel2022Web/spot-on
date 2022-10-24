@@ -14,6 +14,9 @@
 
 }
 
+h2{
+  margin: 0px;
+}
 @media (min-width: 768px) {
   * {
     scroll-padding-top: 64px;
@@ -279,7 +282,8 @@ section {
 .phasesbg {
   background-image: url('./assets/phases.svg');
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
+  
   z-index: 10;
 
 
@@ -582,3 +586,4 @@ now override the 3.3 new styles for modern browsers & apply opacity
 .item:nth-child(3) {
   background: orange;
 }
+

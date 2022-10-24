@@ -94,8 +94,8 @@ export const Contact = () => {
           </div>
         </div>
       </div>
-      <div className=" footer-bg min-h-[344px]  text-white p-5 md:px-5 md:py-0 flex flex-col justify-evenly items-center gap-8 md:grid md:grid-cols-3 md:grid-rows-2 md:gap-4">
-        <div className="flex flex-col content-center items-center md:col-start-2 md:row-start-3 order-3">
+      <div className=" footer-bg min-h-[344px]  text-white p-5 md:px-5 md:py-0 flex flex-col justify-evenly items-center grid md:grid-cols-3 md:grid-rows-2 md:gap-4">
+        <div className="flex flex-col content-center items-center md:col-start-2 md:row-start-3 order-2">
                   <div className="flex flex-row justify-end items-center gap-8 md:gap-16 md:col-start-2 md:row-end-1">
           <a href="" className="hover:text-white">
           <BsFacebook size={22} fill="#D31E1E"/>
@@ -111,23 +111,24 @@ export const Contact = () => {
             <BsLinkedin size={22} fill="#D31E1E"/>
           </a>
         </div>
-         <div className=" text-[#D31E1E] ">
+         <div className="hidden md:block text-[#D31E1E] ">
           <p>Made with ❤️ Excel 2022</p>
         </div>
         </div>
    
 
-        <div className="md:absolute md:col-start-1 md:row-start-3">
+        <div className="md:absolute md:col-start-1 md:row-start-3 order-1">
           <img
-            className="   "
+            className=" scale-50 md:scale-100  "
             src={excellogo}
           />
         </div>
-           <div className="md:absolute md:col-start-3 md:row-start-3 xl:md:left-[1198px]">
+           <div className="md:absolute order-3 md:col-start-3 md:row-start-3 xl:md:left-[1198px]">
           <img
-            className="  "
+            className=" scale-50 md:scale-100 "
             src={modellogo}
           />
+       
         </div>
        
        

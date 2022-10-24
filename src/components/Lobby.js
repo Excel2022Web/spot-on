@@ -1,8 +1,8 @@
 import React from 'react'
-import vec1 from '../assets/vec1.png'
-import vec2 from '../assets/vec2.png'
-import vec3 from '../assets/vec3.png'
-import vec4 from '../assets/vec4.png'
+import vec1 from '../assets/vec11.svg'
+import vec2 from '../assets/vec22.svg'
+import vec3 from '../assets/vec33.svg'
+import vec4 from '../assets/vec44.svg'
 
 export const Lobby = () => {
   return (

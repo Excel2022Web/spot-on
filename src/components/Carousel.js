@@ -10,9 +10,13 @@ export const Carousel = () => {
   const phaseDescriptionStyle = "p-4 text-[16px] md:text-[18px]";
   return (
     <div className='phasesbg h-[100vh] text-white'>
-      <div id="carouselExampleControls" class="carousel slide relative align-center p-5" data-bs-ride="carousel">
+           <div className="flex flex-row items-center pl-10 ">
+        <div className="w-[6px] h-[38px] bg-[#D70F0F] pt-2 overflow-x-hidden"></div>
+        <h3 className="text-[32px] py-5 px-2">PHASES</h3>
+      </div>
+      <div id="carouselExampleControls" class="carousel  carousel-fade relative align-center p-5" data-bs-ride="carousel">
   <div class="carousel-inner relative w-full overflow-hidden">
-    <div class="carousel-item active relative float-left w-full">
+    <div class="carousel-item items-center my-auto active relative float-left w-full">
              <div className={phaseCardStyle}>
           <h4 className={phaseNumberStyle}>PHASE 1</h4>
           <h5 className={phaseNameStyle}>GROUP JAM</h5>
@@ -32,19 +36,18 @@ export const Carousel = () => {
     </div>
     <div class="carousel-item relative float-left w-full">
             <div className={phaseCardStyle}>
-          <h4 className={phaseNumberStyle}>PHASE 1</h4>
-          <h5 className={phaseNameStyle}>GROUP JAM</h5>
+       <h4 className={phaseNumberStyle}>PHASE 2</h4>
+          <h5 className={phaseNameStyle}>TURNCOAT DEBATE</h5>
           <hr className="solid bg-white  mx-auto w-50" />
           <p className={phaseDescriptionStyle}>
-            Participants will be organized into groups for a structured group
-            discussion.
+            Those participants who have qualified from the previous round are
+            eligible for this phase.
             <br />
             <br />
-            Each group will be provided with a topic beforehand & each
-            participant should present their points at their turns.
+            Speak for and against a topic for one-minute intervals.
             <br />
             <br />
-            Time for discussion prior to the presentation will be provided.
+            Time for preparation prior to the presentation will be provided.
           </p>
         </div>
     </div>
