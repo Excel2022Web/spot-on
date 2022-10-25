@@ -6,31 +6,31 @@ import vec4 from '../assets/vec44.svg'
 
 export const Lobby = () => {
   return (
-    <div className='grid grid-cols-2 md:grid-cols-4 gap-8 mx-20 '>
-       <div class=" rounded-lg  ">
+    <div className='grid grid-cols-2 md:grid-cols-4  '>
+       <div class=" rounded-lg flex flex-col content-center ">
     <img src={vec1} alt="Laptop on Desk" width="200" height="200" class="md:w-1/2  mx-auto rounded-t-lg md:rounded-l-lg md:rounded-t-none icons" />
-    <div class="p-6">
-      <h2 class=" mx-auto  lobby-text">Exciting Cash<br/>Prices</h2>
+    <div class="p-6 flex flex-col content-center">
+      <h2 class="   lobby-text">Exciting Cash<br/>Prices</h2>
       </div>
       </div>
-      <div class=" rounded-lg  ">
+      <div class=" rounded-lg flex flex-col content-center ">
     <img src={vec2} alt="Laptop on Desk" width="200" height="200" class="md:w-1/2 mx-auto rounded-t-lg md:rounded-l-lg md:rounded-t-none icons" />
     <div class="p-6">
-      <h2 class="  mx-auto lobby-text">Networking</h2>
+      <h2 class="   lobby-text">Networking</h2>
       </div>
       </div>
     
-      <div class=" rounded-lg  ">
+      <div class=" rounded-lg flex flex-col content-center ">
     <img src={vec3} alt="Laptop on Desk" width="200" height="200" class="md:w-1/2 mx-auto rounded-t-lg md:rounded-l-lg md:rounded-t-none icons" />
     <div class="p-6">
-      <h2 class=" mx-auto lobby-text">Expert Feedback</h2>
+      <h2 class=" lobby-text">Expert Feedback</h2>
       </div>
       </div>
     
-      <div class=" rounded-lg  ">
+      <div class=" rounded-lg flex flex-col content-center ">
     <img src={vec4} alt="Laptop on Desk" width="200" height="200" class="md:w-1/2 mx-auto rounded-t-lg md:rounded-l-lg md:rounded-t-none icons" />
     <div class="p-6">
-      <h2 class=" mx-auto  lobby-text">Express <br/>Yourself</h2>
+      <h2 class="  lobby-text">Express <br/>Yourself</h2>
       </div>
       </div>
     
