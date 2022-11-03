@@ -1,18 +1,18 @@
 import React from 'react'
 
-import mainbg from "../assets/mainbg.png";
+import mainbg from "../assets/mobilebg.svg";
 import waves from "../assets/Wave.svg";
 import centerimg from "../assets/centerimg.svg"
 
 const Homemobile = () => {
   return (
-   <div className=" grid grid-cols-1 items-center content-center">
+   <div className="phasesbg2 grid grid-cols-1 items-center content-center">
       
        
       
        
      
-    <div className=" flex flex-col items-center content-center ">
+    <div className="  flex flex-col items-center content-center pb-16 ">
         <div className=" scale-[0.7]">
           <img src={centerimg} className="z-1"/>
               
@@ -20,7 +20,7 @@ const Homemobile = () => {
         
       
              <div className=" flex flex-col items-center content-center ">
-                  <div className=" ml-5 ">
+                  <div className=" ">
           <p className="maintext  ">
             MAKE YOUR <br />
             VOICE COUNT!
@@ -38,7 +38,7 @@ const Homemobile = () => {
       
       
          
-           <img src={mainbg} className="-z-50 mainbg bg-cover md:bg-auto absolute top-0 " />
+           
           </div>
      
         </div>

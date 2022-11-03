@@ -39,7 +39,7 @@ const Card = ({title, content}) => (
       </div>
 
       <div className=" " id="phases">
-        <Responsivehook/>
+        <Responsivehook/>0
       </div>
 
       <div className="contact md:h-[100vh] " id="contact">

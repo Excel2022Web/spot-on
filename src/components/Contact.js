@@ -16,11 +16,11 @@ import wave from "../assets/Wavefooterwave.png"
 export const Contact = () => {
   return (
     <div className="md:h-[100vh] ">
-      <div className="flex flex-row items-center pl-10">
+      <div className="flex flex-row items-center pl-10 ">
         <div className="w-[6px] h-[38px] bg-[#D70F0F] overflow-x-hidden"></div>
         <h3 className="text-[32px] py-5  px-2">CONTACT US</h3>
       </div>
-      <div className="flex flex-col mx-auto justify-center md:flex-row md:justify-around md:px-5 md:py-10 gap-8">
+      <div className="flex flex-col mx-auto  justify-center md:flex-row md:justify-around md:px-5 md:py-10 gap-16">
         <div className="gap-4 mx-auto">
           <div class="a-box">
             <div class="img-container">
@@ -29,16 +29,16 @@ export const Contact = () => {
               </div>
             </div>
             <div class="text-container">
-              <h3>Andrew Sparks</h3>
-              <h5 className="text-sm">Designation</h5>
+              <h3>Nasreen K Basheer</h3>
+              <h5 className="text-sm">Chairperson</h5>
               <div className="flex flex-row gap-8 mt-3 justify-center ">
-                <a href="">
+                <a href="tel:9605204433">
                   <BsTelephoneFill/>
                 </a>
-                <a href="">
+                <a href="mailto:nasreenkbasheer.mec@gmail.com">
                   <BsFillEnvelopeFill/>
                 </a>
-                <a href="">
+                <a href="https://www.linkedin.com/in/nasreen-k-basheer-6795331a5">
                   <BsLinkedin/>                </a>
               </div>
               <div></div>
@@ -53,8 +53,8 @@ export const Contact = () => {
               </div>
             </div>
             <div class="text-container">
-              <h3>Andrew Sparks</h3>
-              <h5 className="text-sm">Designation</h5>
+              <h3>Hemanth Sagar J C</h3>
+              <h5 className="text-sm">General Secretary</h5>
               <div className="flex flex-row gap-8 mt-3 justify-center">
                 <a href="">
                   <BsTelephoneFill/>
@@ -62,7 +62,7 @@ export const Contact = () => {
                 <a href="">
                   <BsFillEnvelopeFill/>
                 </a>
-                <a href="">
+                <a href="https://www.linkedin.com/in/hemanth-sagar-j-c-292a98195">
                   <BsLinkedin/>                </a>
               </div>
               <div></div>
@@ -78,8 +78,8 @@ export const Contact = () => {
               </div>
             </div>
             <div class="text-container">
-              <h3>Samantha Sparks</h3>
-              <h5 className="text-sm">Designation</h5>
+              <h3>Sebin Davis</h3>
+              <h5 className="text-sm">Joint Secretary</h5>
               <div className="flex flex-row gap-8 mt-3  justify-center  ">
                 <a href="">
                   <BsTelephoneFill/>
