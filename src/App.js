@@ -9,9 +9,10 @@ import { Home } from "./components/home";
 
 import { Carousel } from "./components/Carousel";
 import { Responsivehook } from "./components/Responsivehook";
-import Footer from "./components/footer";
+
 import Homemobile from "./components/homemobile";
 import { Responsivehook1 } from "./components/Responsivehook.1";
+import { Sponsors } from "./components/Sponsors";
 
 function App() {
   const CARDS = 10;
@@ -29,9 +30,9 @@ const Card = ({title, content}) => (
     <div className="md:scroll-pt-[64px] ">
      <Navbar/>
 
-      <section className="home " id="home">
+      <div className="home " id="home">
         <Responsivehook1/>
-      </section>
+      </div>
       <div ><Lobby /></div>
 
       <div className="about md:h-[100vh] xl:h-[100vh] " id="about">
@@ -39,13 +40,16 @@ const Card = ({title, content}) => (
       </div>
 
       <div className=" " id="phases">
-        <Responsivehook/>0
+        <Responsivehook/>
       </div>
-
+            <div>
+        <Sponsors/>
+      </div>
       <div className="contact md:h-[100vh] " id="contact">
         <Contact />
       
       </div>
+
     
     
     </div>

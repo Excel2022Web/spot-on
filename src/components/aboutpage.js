@@ -24,9 +24,9 @@ window.addEventListener("scroll", reveal);
 export const Aboutpage = () => {
   return (
     <>
-      <div className="flex flex-row items-center pl-10 ">
+      <div className="flex flex-row items-center pl-5 md:pl-10  ">
         <div className="w-[6px] h-[38px] bg-[#D70F0F] overflow-x-hidden"></div>
-        <h3 className="text-[32px] py-5 md:py-5 px-2">ABOUT</h3>
+        <h3 className="text-[32px] py-5 md:py-5 px-1 md:px-2">ABOUT</h3>
       </div>
       <div className="flex flex-row">
         <div>

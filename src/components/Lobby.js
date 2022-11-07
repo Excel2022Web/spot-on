@@ -6,7 +6,7 @@ import vec4 from '../assets/vec44.svg'
 
 export const Lobby = () => {
   return (
-    <div className='grid grid-cols-2 md:grid-cols-4  '>
+    <div className='grid grid-cols-2 md:grid-cols-4 py-4 md:py-0 '>
        <div class=" rounded-lg flex flex-col content-center ">
     <img src={vec1} alt="Laptop on Desk" width="200" height="200" class="md:w-1/2  mx-auto rounded-t-lg md:rounded-l-lg md:rounded-t-none icons" />
     <div class="p-6 flex flex-col content-center">

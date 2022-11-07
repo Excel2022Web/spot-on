@@ -6,7 +6,7 @@ import Homemobile from './homemobile';
 
 export const Responsivehook1 = () => {
       const [width, setWidth] = React.useState(window.innerWidth);
-  const breakpoint = 1224;
+  const breakpoint = 1230;
 
   React.useEffect(() => {
     const handleWindowResize = () => setWidth(window.innerWidth)

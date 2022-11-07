@@ -1,22 +1,25 @@
 import React from "react";
-import adam from "../assets/Andrew.png";
+import adam from "../assets/Nasreen.jpeg";
+import hemanth from '../assets/hemanth.jpeg'
+import sebin from '../assets/Sebin.jpeg'
 import phone from "../assets/phone.png";
 import linkedin from "../assets/linkedin.png";
 import email from "../assets/email.png";
-import samantha from "../assets/Samantha.png";
+import samantha from "../assets/sai.jpeg";
 import excellogo from "../assets/excel_logo.svg";
 import modellogo from '../assets/collegelogo.svg'
 
 import { BsFacebook ,BsLinkedin,BsTwitter,BsTelephoneFill,BsFillEnvelopeFill} from "react-icons/bs";
 import { RiInstagramFill } from "react-icons/ri";
-import {FaLinkedinIn,FaFacebookF} from 'react-icons/fa'
+import {FaLinkedinIn,FaFacebookF, FaHeart} from 'react-icons/fa'
 import wave from "../assets/Wavefooterwave.png"
+
 
 
 export const Contact = () => {
   return (
     <div className="md:h-[100vh] ">
-      <div className="flex flex-row items-center pl-10 ">
+      <div className="flex flex-row items-center pl-5 md:pl-10 ">
         <div className="w-[6px] h-[38px] bg-[#D70F0F] overflow-x-hidden"></div>
         <h3 className="text-[32px] py-5  px-2">CONTACT US</h3>
       </div>
@@ -49,12 +52,38 @@ export const Contact = () => {
           <div class="a-box">
             <div class="img-container">
               <div class="img-inner">
-                <img src={adam} />
+                <img src={hemanth} />
               </div>
             </div>
             <div class="text-container">
               <h3>Hemanth Sagar J C</h3>
               <h5 className="text-sm">General Secretary</h5>
+              <div className="flex flex-row gap-8 mt-3 justify-center">
+                <a href="">
+                  <BsTelephoneFill/>
+                </a>
+                <a href="">
+                  <BsFillEnvelopeFill/>
+                </a>
+                <a href="https://www.linkedin.com/in/hemanth-sagar-j-c-292a98195">
+                  <BsLinkedin/>                </a>
+              </div>
+              <div></div>
+            </div>
+          </div>
+        </div>
+        <div className="gap-4 mx-auto">
+          <div class="a-box">
+            <div class="img-container">
+              <div class="img-inner">
+                <img src={sebin} />
+              </div>
+            </div>
+            <div class="text-container">
+              <h3>Sebin Davis</h3>
+              
+              
+              <h5 className="text-sm">Joint Secretary</h5>
               <div className="flex flex-row gap-8 mt-3 justify-center">
                 <a href="">
                   <BsTelephoneFill/>
@@ -78,8 +107,9 @@ export const Contact = () => {
               </div>
             </div>
             <div class="text-container">
-              <h3>Sebin Davis</h3>
-              <h5 className="text-sm">Joint Secretary</h5>
+              <h3>Ananda Sai</h3>
+           
+              <h5 className="text-sm">Talks Manager</h5>
               <div className="flex flex-row gap-8 mt-3  justify-center  ">
                 <a href="">
                   <BsTelephoneFill/>
@@ -96,8 +126,8 @@ export const Contact = () => {
         </div>
       </div>
       <div className=" footer-bg min-h-[344px]  text-white p-5 md:px-5 md:py-0   items-center grid md:grid-cols-3 md:grid-rows-1 md:gap-4">
-        <div className="flex flex-col content-center items-center md:col-start-2 md:row-start-3 order-2">
-                  <div className="flex flex-row justify-end items-center gap-8 md:gap-16 md:col-start-2 md:row-end-1">
+        <div className="flex flex-col content-center items-center gap-4 md:col-start-2 md:row-start-3 order-2">
+                  <div className="flex flex-row justify-end items-center gap-8 md:gap-16 md:col-start-2 md:row-end-1 pt-5">
           <a href="" className="hover:text-white">
           <FaFacebookF size={22} fill="#D31E1E"/>
             
@@ -114,7 +144,7 @@ export const Contact = () => {
           </a>
         </div>
          <div className="hidden md:block text-[#D31E1E] ">
-          <p>Made with ❤️ Excel 2022</p>
+          <p>Made with {" "}<span><FaHeart className="inline-block "/></span>{" "} Excel 2022</p>
         </div>
         </div>
    
@@ -131,8 +161,8 @@ export const Contact = () => {
             src={modellogo}
           />
 
-           <div className="block md:hidden text-[#D31E1E] ">
-          <p>Made with ❤️ Excel 2022</p>
+           <div className="block md:hidden whitespace-nowrap text-[#D31E1E] ">
+          <p >Made with{" "}<span><FaHeart className="inline-block "/></span> Excel 2022</p>
         </div>
        
         </div>

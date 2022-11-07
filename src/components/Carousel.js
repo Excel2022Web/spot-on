@@ -1,99 +1,190 @@
-import React from 'react'
-import $ from 'jquery'
+import React, { useState } from "react";
+import ReactDOM from "react-dom";
+import Flickity from "react-flickity-component";
+import { BsX } from "react-icons/bs";
 
-export const Carousel = () => {
-   const phaseCardStyle =
-    "w-auto flex-1 align-center content-center  h-auto p-2 md:p-4  container1 rounded-xl border-[0.5px] pt-5 h-[100vh] ";
-  const phaseNumberStyle =
-    "text-center text-[28px] md:text-[30px]  font-semibold";
-  const phaseNameStyle = "text-center  text-[18px] md:text-[22px]";
-  const phaseDescriptionStyle = "p-4 text-[16px] md:text-[18px]";
-  return (
-    <div className='phasesbg h-[100vh] text-white'>
-           <div className="flex flex-row items-center pl-10 ">
-        <div className="w-[6px] h-[38px] bg-[#D70F0F] pt-2 overflow-x-hidden"></div>
-        <h3 className="text-[32px] py-5 px-2">PHASES</h3>
-      </div>
-      <div id="carouselExampleControls" class="carousel  carousel-fade relative align-center p-5" data-bs-ride="carousel">
-  <div class="carousel-inner relative w-full overflow-hidden">
-    <div class="carousel-item items-center my-auto active relative float-left w-full">
-             <div className={phaseCardStyle}>
-          <h4 className={phaseNumberStyle}>PHASE 1</h4>
-          <h5 className={phaseNameStyle}>GROUP JAM</h5>
-          <hr className="solid bg-white  mx-auto w-50" />
-          <p className={phaseDescriptionStyle}>
-            Participants will be organized into groups for a structured group
-            discussion.
-            <br />
-            <br />
-            Each group will be provided with a topic beforehand & each
-            participant should present their points at their turns.
-            <br />
-            <br />
-            Time for discussion prior to the presentation will be provided.
-          </p>
-        </div>
-    </div>
-    <div class="carousel-item relative float-left w-full">
-            <div className={phaseCardStyle}>
-       <h4 className={phaseNumberStyle}>PHASE 2</h4>
-          <h5 className={phaseNameStyle}>TURNCOAT DEBATE</h5>
-          <hr className="solid bg-white  mx-auto w-50" />
-          <p className={phaseDescriptionStyle}>
-            Those participants who have qualified from the previous round are
-            eligible for this phase.
-            <br />
-            <br />
-            Speak for and against a topic for one-minute intervals.
-            <br />
-            <br />
-            Time for preparation prior to the presentation will be provided.
-          </p>
-        </div>
-    </div>
-    <div class="carousel-item relative float-left ">
-     <div className={phaseCardStyle}>
-          <h4 className={phaseNumberStyle}>PHASE 3</h4>
-          <h5 className={phaseNameStyle}>IMAGE INTERPRETATION</h5>
-          <hr className="solid bg-white mx-auto w-50" />
-          <p className={phaseDescriptionStyle}>
-            Those participants who have qualified from the previous round are
-            eligible for this phase.
-            <br />
-            <br />
-            Analyze & interpret an image shown on the screen & prepare your
-            points within 3 mins.
-            <br />
-            <br />
-            Present your insights & points about the image for the allotted time
-            duration.
-          </p>
-        </div>
-    </div>
-  </div>
-  <button
-    class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
-    type="button"
-    data-bs-target="#carouselExampleControls"
-    data-bs-slide="prev"
-  >
-    <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button
-    class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
-    type="button"
-    data-bs-target="#carouselExampleControls"
-    data-bs-slide="next"
-  >
-    <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-     
-  
+import Modal from 'react-modal';
 
-    </div>
+export function Carousel() {
+  const customStyles = {
+  content: {
+    top: '50%',
+    left: '50%',
+    right: 'auto',
+    bottom: 'auto',
+    marginRight: '-50%',
+
+    transform: 'translate(-50%, -50%)',
+     backgroundColor: '#8B0000'
     
-  )
+  },
+};
+  let subtitle;
+  const [modalIsOpen, setIsOpen] = useState(false);
+   const [modalIsOpen1, setIsOpen1] = useState(false);
+
+  function openModal() {
+    setIsOpen(true);
+  }
+
+  function afterOpenModal() {
+    // references are now sync'd and can be accessed.
+    subtitle.style.color = '#f00';
+  }
+
+  function closeModal() {
+    setIsOpen(false);
+  }
+  function openModal1() {
+    setIsOpen1(true);
+  }
+
+  function afterOpenModal1() {
+    // references are now sync'd and can be accessed.
+    subtitle.style.color = '#f00';
+  }
+
+  function closeModa1l() {
+    setIsOpen1(false);
+  }
+  const phaseCardStyle =
+    "w-auto flex-1  h-auto p-2 md:p-4  container1  rounded-xl pt-4 md:pt-5 max-w-[500px]  ";
+  const phaseNumberStyle =
+    "text-center text-[28px] md:text-[30px] font-semibold";
+  const phaseNameStyle = "text-center  text-[18px] md:text-[22px]";
+  const phaseDescriptionStyle = "p-4 md:p-6 text-[16px] md:text-[18px]";
+
+  return (
+    <div className="phasesbg h-[100vh]">
+     <div className="flex flex-col text-white   py-5">
+       
+        <h3 className="text-[32px] text-center items-center   px-2">PHASES 1 -ONLINE</h3>
+        <h2 className="text-center items-center font-light ">Submit in one or both of the following tracks</h2>
+        
+      </div>
+      <Flickity>
+        <div className="carousel-cell ">
+                <div className={phaseCardStyle}>
+          <h4 className={phaseNumberStyle}>Track 1</h4>
+          
+          
+          <p className={phaseDescriptionStyle}>
+           Write a short essay, revolving around any historical or ongoing human rights violation issue. Analyse the facts, lay out the view points of the various stakeholders, and present your own opinions on how things turned out or possible actions that can now be taken. Ex. the Holocaust.
+<br/>
+ <div className="pt-5">
+      <button className="button btn outline outline-1 outline-white text-white " onClick={openModal}>Rules</button>
+      <Modal
+        isOpen={modalIsOpen}
+        onAfterOpen={afterOpenModal}
+        onRequestClose={closeModal}
+        style={customStyles}
+        contentLabel="Example Modal"
+       
+      >
+        <div className="flex flex-row justify-end ">
+          
+       <button className=" close justify-end  text-white  " onClick={closeModal}><BsX/></button>
+      
+        </div>
+        <div className={phaseCardStyle}>
+          <h4 className={phaseNumberStyle}>Track 1</h4>
+          
+          
+          <p className={phaseDescriptionStyle}>
+            Rules:
+<br/>
+<br/>
+
+1. The essay must not exceed 1000 words in length.
+<br/>
+
+2. Prefer issues that have multiple valid (opposing) viewpoints.
+<br/>
+
+3. Avoid speculation when initially presenting the issue.
+
+
+
+          </p>
+          
+        </div>
+       
+      </Modal>
+    </div>
+
+
+          </p>
+        </div>
+        
+      </div>
+        
+        
+ 
+
+         <div className="carousel-cell ">
+          <div className={phaseCardStyle}>
+          <h4 className={phaseNumberStyle}>Track 2</h4>
+         
+          
+          <p className={phaseDescriptionStyle}>
+
+            Write a short story, the main character of which is an inanimate object. Go wild with quirky, humourous, insightful or deep plots of your liking, so long as it is from the object's perspective. Ex. A coffin wishing it were a cupboard instead.
+<br/>
+<br/>
+ <div className="pt-5">
+      <button className="button btn outline outline-1 outline-white text-white " onClick={openModal1}>Rules</button>
+      <Modal
+        isOpen={modalIsOpen1}
+        onAfterOpen={afterOpenModal1}
+        onRequestClose={closeModa1l}
+        style={customStyles}
+        contentLabel="Example Modal"
+       
+      >
+        <div className="flex flex-row justify-end  ">
+          
+        <button className=" close justify-end  text-white  " onClick={closeModa1l}><BsX/></button>
+      
+        </div>
+        <div className={phaseCardStyle}>
+          <h4 className={phaseNumberStyle}>Track 1</h4>
+          
+          
+          <p className={phaseDescriptionStyle}>
+            Rules:
+<br/>
+<br/>
+
+1. The essay must not exceed 1000 words in length.
+<br/>
+
+2. Prefer issues that have multiple valid (opposing) viewpoints.
+<br/>
+
+3. Avoid speculation when initially presenting the issue.
+
+
+
+          </p>
+          
+        </div>
+       
+      </Modal>
+    </div>
+
+
+            
+          </p>
+        </div>
+         </div>
+
+
+
+     
+    
+    </Flickity>
+    </div>
+  );
 }
+
+

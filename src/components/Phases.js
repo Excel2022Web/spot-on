@@ -12,9 +12,10 @@ export const Phases = () => {
   return (
     <div className=" phasesbg text-white px-2  md:h-[100vh] ">
         
-      <div className="flex flex-row items-center pl-10 ">
+      <div className="flex flex-col  pl-10 py-5">
        
-        <h3 className="text-[32px] py-5 px-2">PHASES 1 -ONLINE</h3>
+        <h3 className="text-[32px] flex-start  px-2">PHASES 1 -ONLINE</h3>
+        <h2 className="text-center items-center font-light ">Submit in one or both of the following tracks</h2>
         
       </div>
       <div className="flex flex-col md:flex-row justify-center pb-4 px-10 gap-10 md:gap-10">
@@ -29,7 +30,6 @@ export const Phases = () => {
 
 Rules:
 <br/>
-<br/>
 
 1. The essay must not exceed 1000 words in length.
 <br/>
@@ -40,6 +40,8 @@ Rules:
 3. Avoid speculation when initially presenting the issue.
 
           </p>
+      
+      
         </div>
 
         <div className={phaseCardStyle}>
@@ -69,6 +71,8 @@ Rules:
         </div>
    
       </div>
+      
     </div>
+    
   );
 };

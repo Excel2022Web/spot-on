@@ -6,7 +6,7 @@ import centerimg from "../assets/centerimg.svg"
 export const Home = () => {
   return (
     
-    <div className=" grid md:grid-cols-3">
+    <div className=" grid md:grid-cols-3 h-[100vh]">
       
        
       

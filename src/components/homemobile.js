@@ -21,8 +21,8 @@ const Homemobile = () => {
       
              <div className=" flex flex-col items-center content-center ">
                   <div className=" ">
-          <p className="maintext  ">
-            MAKE YOUR <br />
+          <p className="maintext text-center self-center items-center ">
+            MAKE YOUR 
             VOICE COUNT!
             <br />
           </p>
