@@ -30,7 +30,7 @@ export const Aboutpage = () => {
       </div>
       <div className="flex flex-row">
         <div>
-          <img src={mic} className="mic -z-10 overflow-hidden top-0 relative" />
+          <img src={mic} alt="mic" className="mic -z-10 overflow-hidden top-0 relative" />
         </div>
         <div className="about-text-box md:right-0 md:p-5  md:w-[1028px] md:h-[535px]">
           <p className="about-text text-[18px] leading-[25px] md:leading-[30px] md:text-[24px] ">

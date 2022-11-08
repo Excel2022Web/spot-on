@@ -1,4 +1,4 @@
-function reveal() {
+export function reveal() {
     var reveals = document.querySelectorAll(".reveal");
     var reveals1 = document.querySelectorAll(".reveal1");
   

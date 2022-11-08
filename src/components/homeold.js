@@ -1,6 +1,6 @@
 import React from "react";
 import mainbg from "../assets/mainbg.png";
-import waves from "../assets/Wave.svg";
+
 import centerimg from "../assets/centerimg.svg"
 
 export const Homeold = () => {

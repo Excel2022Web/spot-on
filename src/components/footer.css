@@ -1,0 +1,119 @@
+.footer2 {
+ background-image: linear-gradient(white, #ff3636);
+
+}
+
+
+.footer__main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  flex-direction: column;
+}
+
+.footer-social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 2.5rem 0 1rem 0;
+}
+
+.footer_nav {
+  display: flex;
+  padding: 1rem;
+  width: 45%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+  font-family: var(--primary-font);
+  color: #ffffff;
+  gap: 1.5rem;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.contact_social_icon {
+  font-size: 1.25rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer_nav {
+    width: 60%;
+    font-size: 1rem
+  }
+
+  .footer-social {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .footer-social-socialmedia {
+    order: 2;
+  }
+  .footer-social-college {
+    order: 1;
+  }
+  .footer-social-event {
+    order: 3;
+  }
+}
+
+.footer-social-socialmedia {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.footer-social-socialmedia a {
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  color: #ffff;
+  transition: all 0.2s ease-out;
+}
+
+.footer-social-socialmedia a:hover {
+  transform: scale(1.25);
+  color: var(--secondary-color);
+}
+
+.mec__logo {
+  width: 10rem;
+}
+.excel__logo {
+  width: 10rem;
+}
+
+.footer-madewith {
+  color: #ffffff;
+  font-size: 1rem;
+  font-family: var(--primary-font);
+}
+
+.footer_heartjzf {
+  margin: 0 0.25rem;
+  position: relative;
+  top: 3px;
+  color: var(--secondary-color);
+}
+
+
+@media screen and (max-width: 992px) {
+  .footer_nav {
+    width: 90%;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+}

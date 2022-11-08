@@ -1,6 +1,6 @@
 import React from "react";
 import mainbg from "../assets/mainbg.png";
-import waves from "../assets/Wave.svg";
+
 import centerimg from "../assets/centerimg.svg"
 
 export const Home = () => {
@@ -14,7 +14,7 @@ export const Home = () => {
      
     <div className=" flex flex-col md:col-start-2 col-starts-1 mt-5 ">
         <div className="absolute scale-75 md:scale-100 md:static left-[40px] md:self-center md:items-center ">
-          <img src={centerimg} className="z-1"/>
+          <img alt="ousus" src={centerimg} className="z-1"/>
               
         </div>
              <div className="md:self-center mt-3">
@@ -34,7 +34,7 @@ export const Home = () => {
             <br />
           </p>
           </div>
-           <img src={mainbg} className="-z-50 mainbg bg-contain md:bg-auto absolute top-0 " />
+           <img src={mainbg} alt="ousus" className="-z-50 mainbg bg-contain md:bg-auto absolute top-0 " />
           
      
         </div>

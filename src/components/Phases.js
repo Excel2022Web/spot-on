@@ -6,16 +6,16 @@ export const Phases = () => {
     "w-auto flex-1  h-auto p-2 md:p-4 container1  rounded-xl  pt-5 max-w-[500px] max-h-[600px]";
   const phaseNumberStyle =
     "text-center text-[28px] md:text-[30px] font-semibold";
-  const phaseNameStyle = "text-center  text-[18px] md:text-[22px]";
-  const phaseDescriptionStyle = "p-4 md:p-6 text-[16px] md:text-[18px]";
+
+  const phaseDescriptionStyle = "px-4  text-[16px] md:text-[17.5px]";
 
   return (
     <div className=" phasesbg text-white px-2  md:h-[100vh] ">
         
       <div className="flex flex-col  pl-10 py-5">
        
-        <h3 className="text-[32px] flex-start  px-2">PHASES 1 -ONLINE</h3>
-        <h2 className="text-center items-center font-light ">Submit in one or both of the following tracks</h2>
+        <h3 className="text-[32px] flex-start  px-2">PHASE 1 - ONLINE</h3>
+        <h2 className="text-center items-center font-light md:text-[28px]">Submit in one or both of the following tracks</h2>
         
       </div>
       <div className="flex flex-col md:flex-row justify-center pb-4 px-10 gap-10 md:gap-10">

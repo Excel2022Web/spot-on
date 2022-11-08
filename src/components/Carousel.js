@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ReactDOM from "react-dom";
+
 import Flickity from "react-flickity-component";
 import { BsX } from "react-icons/bs";
 
@@ -51,14 +51,14 @@ export function Carousel() {
     "w-auto flex-1  h-auto p-2 md:p-4  container1  rounded-xl pt-4 md:pt-5 max-w-[500px]  ";
   const phaseNumberStyle =
     "text-center text-[28px] md:text-[30px] font-semibold";
-  const phaseNameStyle = "text-center  text-[18px] md:text-[22px]";
+
   const phaseDescriptionStyle = "p-4 md:p-6 text-[16px] md:text-[18px]";
 
   return (
     <div className="phasesbg h-[100vh]">
      <div className="flex flex-col text-white   py-5">
        
-        <h3 className="text-[32px] text-center items-center   px-2">PHASES 1 -ONLINE</h3>
+        <h3 className="text-[32px] text-center items-center   px-2">PHASE 1 - ONLINE</h3>
         <h2 className="text-center items-center font-light ">Submit in one or both of the following tracks</h2>
         
       </div>
