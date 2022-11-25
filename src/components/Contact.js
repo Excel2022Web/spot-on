@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import adam from "../assets/Nasreen.jpeg";
 import hemanth from '../assets/hemanth.jpeg'
 import sebin from '../assets/Sebin.jpeg'
@@ -12,18 +12,43 @@ import { RiInstagramFill } from "react-icons/ri";
 import {FaLinkedinIn,FaFacebookF, FaHeart} from 'react-icons/fa'
 
 import Footer from "./Footer";
+import {motion, useInView} from 'framer-motion';
 
 
 
 export const Contact = () => {
+  const ref = useRef(null);
+  const ref2 =useRef(null);
+
+
+  const isInView = useInView(ref); 
+  const isInView2 = useInView(ref2);
+
   return (
-    <div className="md:h-[100vh] ">
-      <div className="flex flex-row items-center pl-5 md:pl-10 ">
+    <div ref={ref} className="md:h-[100vh] ">
+      <motion.div
+        style={{
+          transform: isInView ? "none" : "translateX(100px)",
+          opacity: isInView ? 1 : 0,
+          transition: "all 0.7s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
+        }}
+        className="flex flex-row items-center pl-5 md:pl-10 "
+      >
         <div className="w-[6px] h-[38px] bg-[#D70F0F] overflow-x-hidden"></div>
         <h3 className="text-[32px] py-5  px-2">CONTACT US</h3>
-      </div>
-      <div className="flex flex-col mx-auto  justify-center md:flex-row md:justify-around md:px-5 md:py-10 gap-16">
-        <div className="gap-4 mx-auto">
+      </motion.div>
+      <div
+        ref={ref2}
+        className="flex flex-col mx-auto  justify-center md:flex-row md:justify-around md:px-5 md:py-10 gap-16"
+      >
+        <motion.div
+          style={{
+            transform: isInView2 ? "none" : "translateY(200px)",
+            opacity: isInView2 ? 1 : 0,
+            transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
+          }}
+          className="gap-4 mx-auto"
+        >
           <div class="a-box">
             <div class="img-container">
               <div class="img-inner">
@@ -47,8 +72,16 @@ export const Contact = () => {
               <div></div>
             </div>
           </div>
-        </div>
-        <div className="gap-4 mx-auto">
+        </motion.div>
+        <motion.div
+          
+          style={{
+            transform: isInView2 ? "none" : "translateY(200px)",
+            opacity: isInView2 ? 1 : 0,
+            transition: "all 1.1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.7s",
+          }}
+          className="gap-4 mx-auto"
+        >
           <div class="a-box">
             <div class="img-container">
               <div class="img-inner">
@@ -72,8 +105,16 @@ export const Contact = () => {
               <div></div>
             </div>
           </div>
-        </div>
-        <div className="gap-4 mx-auto">
+        </motion.div>
+        <motion.div
+          
+          style={{
+            transform: isInView2 ? "none" : "translateY(200px)",
+            opacity: isInView2 ? 1 : 0,
+            transition: "all 1.3s cubic-bezier(0.17, 0.55, 0.55, 1) 0.9s",
+          }}
+          className="gap-4 mx-auto"
+        >
           <div class="a-box">
             <div class="img-container">
               <div class="img-inner">
@@ -98,9 +139,17 @@ export const Contact = () => {
               <div></div>
             </div>
           </div>
-        </div>
+        </motion.div>
 
-        <div className="gap-4 pb-5 mx-auto">
+        <motion.div
+        
+          style={{
+            transform: isInView2 ? "none" : "translateY(200px)",
+            opacity: isInView2 ? 1 : 0,
+            transition: "all 1.5s cubic-bezier(0.17, 0.55, 0.55, 1) 1s",
+          }}
+          className="gap-4 pb-5 mx-auto"
+        >
           <div class="a-box">
             <div class="img-container">
               <div class="img-inner">
@@ -125,13 +174,12 @@ export const Contact = () => {
               <div></div>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
 
-      
-     <div className="block md:hidden">
-      <Footer />
-     </div>
+      <div className="block md:hidden">
+        <Footer />
+      </div>
       <div className=" hidden mx-auto md:block h-[0.6px] bg-[#00000042] items-center flex self-center w-[80%] "></div>
       <div className=" hidden footer-bg min-h-[300px]  text-white p-5 md:px-5 md:py-0   items-center md:grid md:grid-cols-3 md:grid-rows-1 md:gap-4">
         <div className="flex flex-col content-center items-center gap-4 md:col-start-2 md:row-start-3 order-2">
