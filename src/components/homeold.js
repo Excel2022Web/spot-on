@@ -10,7 +10,7 @@ export const Homeold = () => {
       <div className="grid grid-rows-2">
         <div className="flex flex-col absolute md:left-[537px] md:top-[170px]">
           <div className="justify-center ">
-          <img src={centerimg} className=""/>
+          <img src={centerimg} className="" alt=""/>
               
         </div>
         <div className=" ml-5">
@@ -29,7 +29,7 @@ export const Homeold = () => {
      
         </div>
         <div className=" -z-10 w-full   ">
-          <img src={mainbg} className="mainbg bg-contain md:bg-auto absolute top-0 " />
+          <img src={mainbg} className="mainbg bg-contain md:bg-auto absolute top-0 " alt=""/>
       
         </div>
       </div>

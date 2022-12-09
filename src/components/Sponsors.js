@@ -8,8 +8,8 @@ export const Sponsors = () => {
         <h3 className="text-[32px] py-5 md:py-5 px-2">SPONSORS</h3>
       </div>
       <div className="flex flex-col md:flex-row gap-16 items-center justify-center content-center ">
-        <img alt="sponsor" src={sponsor1} className="self-center" />
-        <img alt="sponsor" src={sponsor1} />
+        <img alt="" src={sponsor1} className="self-center" />
+        <img alt="" src={sponsor1} />
       </div>
     </div>
   );

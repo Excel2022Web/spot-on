@@ -22,13 +22,13 @@ export const Lobby = () => {
       >
         <img
           src={vec1}
-          alt="Laptop on Desk"
+          alt=""
           width="200"
           height="200"
-          class="md:w-1/2  mx-auto rounded-t-lg md:rounded-l-lg md:rounded-t-none icons"
+          class="md:w-1/2  mx-auto rounded-t-lg md:rounded-l-lg md:rounded-t-none icons pointer-events-none"
         />
         <div class="p-6 flex flex-col content-center">
-          <h2 class="   lobby-text">
+          <h2 class="lobby-text">
             Exciting Cash
             <br />
             Prices
@@ -46,10 +46,10 @@ export const Lobby = () => {
       >
         <img
           src={vec2}
-          alt="Laptop on Desk"
+          alt=""
           width="200"
           height="200"
-          class="md:w-1/2 mx-auto rounded-t-lg md:rounded-l-lg md:rounded-t-none icons"
+          class="md:w-1/2 mx-auto rounded-t-lg md:rounded-l-lg md:rounded-t-none icons pointer-events-none"
         />
         <div class="p-6">
           <h2 class="   lobby-text">Networking</h2>
@@ -68,10 +68,10 @@ export const Lobby = () => {
       >
         <img
           src={vec3}
-          alt="Laptop on Desk"
+          alt=""
           width="200"
           height="200"
-          class="md:w-1/2 mx-auto rounded-t-lg md:rounded-l-lg md:rounded-t-none icons"
+          class="md:w-1/2 mx-auto rounded-t-lg md:rounded-l-lg md:rounded-t-none icons pointer-events-none"
         />
         <div class="p-6">
           <h2 class=" lobby-text">Expert Feedback</h2>
@@ -89,10 +89,10 @@ export const Lobby = () => {
       >
         <img
           src={vec4}
-          alt="Laptop on Desk"
+          alt=""
           width="200"
           height="200"
-          class="md:w-1/2 mx-auto rounded-t-lg md:rounded-l-lg md:rounded-t-none icons"
+          class="md:w-1/2 mx-auto rounded-t-lg md:rounded-l-lg md:rounded-t-none icons pointer-events-none"
         />
         <div class="p-6">
           <h2 class="  lobby-text">
