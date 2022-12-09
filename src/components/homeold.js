@@ -14,7 +14,7 @@ export const Homeold = () => {
               
         </div>
         <div className=" ml-5">
-           <button class=" button1 text-white font-bold py-2 px-4 mt-2 rounded hover:bg-red-600">
+           <button className=" button1 text-white font-bold py-2 px-4 mt-2 rounded hover:bg-red-600">
             REGISTER NOW
           </button>
         </div>

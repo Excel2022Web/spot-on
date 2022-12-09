@@ -1,7 +1,7 @@
 import React from "react";
 
 import centerimg from "../assets/centerimg.svg";
-import { delay, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 const Homemobile = () => {
   return (
@@ -60,7 +60,7 @@ const Homemobile = () => {
             initial={{ opacity: 0, y: 200 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 2.8, duration: 1 }}
-            class="content-center button1 text-white font-bold py-2 px-4 mt-2 rounded hover:bg-red-600"
+            className="content-center button1 text-white font-bold py-2 px-4 mt-2 rounded hover:bg-red-600"
           >
             REGISTER NOW
           </motion.button>

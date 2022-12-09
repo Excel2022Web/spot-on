@@ -22,44 +22,44 @@ $(document).ready(function () {
 
 export const Navbar = () => {
   return (
-    <nav class="  navbar navbar-expand-lg navbar-light z-20 shadow-sm bg-white  ">
-      <div class="container-fluid">
-        <div class=" nav-item title nav-item">
-          <a class="navbar-brand d-lg-none title" href="/">
+    <nav className="navbar navbar-expand-lg navbar-light z-20 shadow-sm bg-white  ">
+      <div className="container-fluid">
+        <div className=" nav-item title nav-item">
+          <a className="navbar-brand d-lg-none title" href="/">
             SPOT ON
           </a>
         </div>
-        <button class="d-lg-none first-button mr-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+        <button className="d-lg-none first-button mr-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
     aria-controls="navbarSupportedContent20" aria-expanded="false" aria-label="Toggle navigation">
-    <div class="navbar-togglerY animated-icon1"><span></span><span></span><span></span></div>
+    <div className="navbar-togglerY animated-icon1"><span></span><span></span><span></span></div>
   </button>
 
 
-        <div class="collapse navbar-collapse  z-2" id="navbar">
-          <ul class="navbar-nav    mx-auto gap-10">
-            <li class="nav-item md:mr-20 md:ml-12" >
-              <a class="nav-link single " href="#home">
+        <div className="collapse navbar-collapse  z-2" id="navbar">
+          <ul className="navbar-nav    mx-auto gap-10">
+            <li className="nav-item md:mr-20 md:ml-12" >
+              <a className="nav-link single " href="#home">
                 Home
               </a>
             </li>
-            <li class="nav-item md:mr-20 md:ml-12 ">
-              <a class="nav-link single" href="#about">
+            <li className="nav-item md:mr-20 md:ml-12 ">
+              <a className="nav-link single" href="#about">
                 About
               </a>
             </li>
-            <div class="  d-none d-md-block nav-item title mx-[60px] md:mx-[100px]">
-              <a class="nav-link title whitespace-nowrap" href="/">
+            <div className="  d-none d-md-block nav-item title mx-[60px] md:mx-[100px]">
+              <a className="nav-link title whitespace-nowrap" href="/">
                 SPOT ON
               </a>
             </div>
 
-            <li class="nav-item md:mr-20 md:ml-20 ">
-              <a class="nav-link single" href="#phases">
+            <li className="nav-item md:mr-20 md:ml-20 ">
+              <a className="nav-link single" href="#phases">
                 Phases
               </a>
             </li>
-            <li class="nav-item md:mr-20 ">
-              <a class="nav-link single" href="#contact">
+            <li className="nav-item md:mr-20 ">
+              <a className="nav-link single" href="#contact">
                 Contact
               </a>
             </li>

@@ -58,7 +58,7 @@ export const Aboutpage = () => {
               opacity: isInView ? 1 : 0,
               transition: "all 1.3s cubic-bezier(0.17, 0.55, 0.55, 1) 0.9s",
             }}
-            class="button2 text-white font-bold py-2 px-4 mt-2 rounded "
+            className="button2 text-white font-bold py-2 px-4 mt-2 rounded "
           >
             RULES AND GUIDELINES
           </motion.button>

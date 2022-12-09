@@ -49,13 +49,13 @@ export const Contact = () => {
           }}
           className="gap-4 mx-auto"
         >
-          <div class="a-box">
-            <div class="img-container">
-              <div class="img-inner">
+          <div className="a-box">
+            <div className="img-container">
+              <div className="img-inner">
                 <img alt="execom" src={adam} />
               </div>
             </div>
-            <div class="text-container">
+            <div className="text-container">
               <h3>Nasreen K Basheer</h3>
               <h5 className="text-sm">Chairperson</h5>
               <div className="flex flex-row gap-8 mt-3 justify-center ">
@@ -82,13 +82,13 @@ export const Contact = () => {
           }}
           className="gap-4 mx-auto"
         >
-          <div class="a-box">
-            <div class="img-container">
-              <div class="img-inner">
+          <div className="a-box">
+            <div className="img-container">
+              <div className="img-inner">
                 <img alt="execom" src={hemanth} />
               </div>
             </div>
-            <div class="text-container">
+            <div className="text-container">
               <h3>Hemanth Sagar J C</h3>
               <h5 className="text-sm">General Secretary</h5>
               <div className="flex flex-row gap-8 mt-3 justify-center">
@@ -115,13 +115,13 @@ export const Contact = () => {
           }}
           className="gap-4 mx-auto"
         >
-          <div class="a-box">
-            <div class="img-container">
-              <div class="img-inner">
+          <div className="a-box">
+            <div className="img-container">
+              <div className="img-inner">
                 <img alt="execom" src={sebin} />
               </div>
             </div>
-            <div class="text-container">
+            <div className="text-container">
               <h3>Sebin Davis</h3>
 
               <h5 className="text-sm">Joint Secretary</h5>
@@ -150,13 +150,13 @@ export const Contact = () => {
           }}
           className="gap-4 pb-5 mx-auto"
         >
-          <div class="a-box">
-            <div class="img-container">
-              <div class="img-inner">
+          <div className="a-box">
+            <div className="img-container">
+              <div className="img-inner">
                 <img alt="execom" src={samantha} />
               </div>
             </div>
-            <div class="text-container">
+            <div className="text-container">
               <h3>Ananda Sai</h3>
 
               <h5 className="text-sm">Talks Manager</h5>

@@ -18,17 +18,17 @@ export const Lobby = () => {
           opacity: isInView ? 1 : 0,
           transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
         }}
-        class=" rounded-lg flex flex-col content-center "
+        className=" rounded-lg flex flex-col content-center "
       >
         <img
           src={vec1}
           alt=""
           width="200"
           height="200"
-          class="md:w-1/2  mx-auto rounded-t-lg md:rounded-l-lg md:rounded-t-none icons pointer-events-none"
+          className="md:w-1/2  mx-auto rounded-t-lg md:rounded-l-lg md:rounded-t-none icons pointer-events-none"
         />
-        <div class="p-6 flex flex-col content-center">
-          <h2 class="lobby-text">
+        <div className="p-6 flex flex-col content-center">
+          <h2 className="lobby-text">
             Exciting Cash
             <br />
             Prices
@@ -42,17 +42,17 @@ export const Lobby = () => {
           opacity: isInView ? 1 : 0,
           transition: "all 1.1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.7s",
         }}
-        class=" rounded-lg flex flex-col content-center "
+        className=" rounded-lg flex flex-col content-center "
       >
         <img
           src={vec2}
           alt=""
           width="200"
           height="200"
-          class="md:w-1/2 mx-auto rounded-t-lg md:rounded-l-lg md:rounded-t-none icons pointer-events-none"
+          className="md:w-1/2 mx-auto rounded-t-lg md:rounded-l-lg md:rounded-t-none icons pointer-events-none"
         />
-        <div class="p-6">
-          <h2 class="   lobby-text">Networking</h2>
+        <div className="p-6">
+          <h2 className="   lobby-text">Networking</h2>
         </div>
       </motion.div>
 
@@ -64,17 +64,17 @@ export const Lobby = () => {
           transition: "all 1.3s cubic-bezier(0.17, 0.55, 0.55, 1) 0.9s",
           
         }}
-        class=" rounded-lg flex flex-col content-center "
+        className=" rounded-lg flex flex-col content-center "
       >
         <img
           src={vec3}
           alt=""
           width="200"
           height="200"
-          class="md:w-1/2 mx-auto rounded-t-lg md:rounded-l-lg md:rounded-t-none icons pointer-events-none"
+          className="md:w-1/2 mx-auto rounded-t-lg md:rounded-l-lg md:rounded-t-none icons pointer-events-none"
         />
-        <div class="p-6">
-          <h2 class=" lobby-text">Expert Feedback</h2>
+        <div className="p-6">
+          <h2 className=" lobby-text">Expert Feedback</h2>
         </div>
       </motion.div>
 
@@ -85,17 +85,17 @@ export const Lobby = () => {
           opacity: isInView ? 1 : 0,
           transition: "all 1.5s cubic-bezier(0.17, 0.55, 0.55, 1) 1.1s",
         }}
-        class=" rounded-lg flex flex-col content-center "
+        className=" rounded-lg flex flex-col content-center "
       >
         <img
           src={vec4}
           alt=""
           width="200"
           height="200"
-          class="md:w-1/2 mx-auto rounded-t-lg md:rounded-l-lg md:rounded-t-none icons pointer-events-none"
+          className="md:w-1/2 mx-auto rounded-t-lg md:rounded-l-lg md:rounded-t-none icons pointer-events-none"
         />
-        <div class="p-6">
-          <h2 class="  lobby-text">
+        <div className="p-6">
+          <h2 className="  lobby-text">
             Express <br />
             Yourself
           </h2>
