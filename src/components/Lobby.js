@@ -16,7 +16,7 @@ export const Lobby = () => {
         style={{
           transform: isInView ? "none" : "translateY(200px)",
           opacity: isInView ? 1 : 0,
-          transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
+          transition: "all 0.6s cubic-bezier(0.17, 0.55, 0.55, 1) 0.3s",
         }}
         class=" rounded-lg flex flex-col content-center "
       >
@@ -40,7 +40,7 @@ export const Lobby = () => {
         style={{
           transform: isInView ? "none" : "translateY(200px)",
           opacity: isInView ? 1 : 0,
-          transition: "all 1.1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.7s",
+          transition: "all 0.8s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
         }}
         class=" rounded-lg flex flex-col content-center "
       >
@@ -61,7 +61,7 @@ export const Lobby = () => {
         style={{
           transform: isInView ? "none" : "translateY(200px)",
           opacity: isInView ? 1 : 0,
-          transition: "all 1.3s cubic-bezier(0.17, 0.55, 0.55, 1) 0.9s",
+          transition: "all 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.8s",
           
         }}
         class=" rounded-lg flex flex-col content-center "
@@ -83,7 +83,7 @@ export const Lobby = () => {
         style={{
           transform: isInView ? "none" : "translateY(200px)",
           opacity: isInView ? 1 : 0,
-          transition: "all 1.5s cubic-bezier(0.17, 0.55, 0.55, 1) 1.1s",
+          transition: "all 1.2s cubic-bezier(0.17, 0.55, 0.55, 1) 1s",
         }}
         class=" rounded-lg flex flex-col content-center "
       >

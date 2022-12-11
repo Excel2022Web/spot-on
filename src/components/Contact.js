@@ -28,7 +28,7 @@ export const Contact = () => {
     <div ref={ref} className="md:h-[100vh] ">
       <motion.div
         style={{
-          transform: isInView ? "none" : "translateX(100px)",
+          transform: isInView ? "none" : "translateX(-200px)",
           opacity: isInView ? 1 : 0,
           transition: "all 0.7s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
         }}
@@ -43,7 +43,7 @@ export const Contact = () => {
       >
         <motion.div
           style={{
-            transform: isInView2 ? "none" : "translateY(200px)",
+            transform: isInView2 ? "none" : "translateX(-200px)",
             opacity: isInView2 ? 1 : 0,
             transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
           }}
@@ -76,7 +76,7 @@ export const Contact = () => {
         <motion.div
           
           style={{
-            transform: isInView2 ? "none" : "translateY(200px)",
+            transform: isInView2 ? "none" : "translateX(-200px)",
             opacity: isInView2 ? 1 : 0,
             transition: "all 1.1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.7s",
           }}
@@ -109,7 +109,7 @@ export const Contact = () => {
         <motion.div
           
           style={{
-            transform: isInView2 ? "none" : "translateY(200px)",
+            transform: isInView2 ? "none" : "translateX(-200px)",
             opacity: isInView2 ? 1 : 0,
             transition: "all 1.3s cubic-bezier(0.17, 0.55, 0.55, 1) 0.9s",
           }}
@@ -144,7 +144,7 @@ export const Contact = () => {
         <motion.div
         
           style={{
-            transform: isInView2 ? "none" : "translateY(200px)",
+            transform: isInView2 ? "none" : "translateX(-200px)",
             opacity: isInView2 ? 1 : 0,
             transition: "all 1.5s cubic-bezier(0.17, 0.55, 0.55, 1) 1s",
           }}

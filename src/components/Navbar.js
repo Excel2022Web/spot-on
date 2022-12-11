@@ -36,13 +36,13 @@ export const Navbar = () => {
 
 
         <div class="collapse navbar-collapse  z-2" id="navbar">
-          <ul class="navbar-nav    mx-auto gap-10">
-            <li class="nav-item md:mr-20 md:ml-12" >
+          <ul class="navbar-nav  mx-auto gap-20">
+            <li class="nav-item " >
               <a class="nav-link single " href="#home">
                 Home
               </a>
             </li>
-            <li class="nav-item md:mr-20 md:ml-12 ">
+            <li class="nav-item  ">
               <a class="nav-link single" href="#about">
                 About
               </a>
@@ -53,12 +53,12 @@ export const Navbar = () => {
               </a>
             </div>
 
-            <li class="nav-item md:mr-20 md:ml-20 ">
+            <li class="nav-item  ">
               <a class="nav-link single" href="#phases">
                 Phases
               </a>
             </li>
-            <li class="nav-item md:mr-20 ">
+            <li class="nav-item  ">
               <a class="nav-link single" href="#contact">
                 Contact
               </a>

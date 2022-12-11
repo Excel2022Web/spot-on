@@ -13,10 +13,7 @@ const Loading = () => {
         animate={{rotateY:180}}
         transition={{duration:2,repeat:Infinity}}
         src={centreimg} alt="loading" />
-        <motion.div className='w-[100px] h-[20px] outline-1 text-3xl text-white'>
-            Loading...
-
-        </motion.div>
+       
 
     </motion.div>
   )

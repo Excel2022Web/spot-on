@@ -10,10 +10,7 @@ export const Home = () => {
       <div className=" flex flex-col md:col-start-2 col-starts-1 mt-5 ">
         <div className="absolute scale-75 md:scale-100 md:static left-[40px] md:self-center md:items-center ">
           <motion.img
-            whileHover={{
-              transform: "rotateY(180deg)",
-              transition: { duration: 1 },
-            }}
+           
             initial={{ opacity: 0, y: -200 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.8, duration: 1 }}
