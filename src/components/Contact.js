@@ -39,7 +39,7 @@ export const Contact = () => {
       </motion.div>
       <div
         ref={ref2}
-        className="flex flex-col mx-auto  justify-center md:flex-row md:justify-around md:px-5 md:py-10 gap-16"
+        className="flex flex-col flex-wrap mx-auto  justify-center md:flex-row md:justify-around md:px-5 md:py-10 gap-16"
       >
         <motion.div
           style={{
@@ -49,23 +49,23 @@ export const Contact = () => {
           }}
           className="gap-4 mx-auto"
         >
-          <div class="a-box">
-            <div class="img-container">
-              <div class="img-inner">
+          <div className="a-box">
+            <div className="img-container">
+              <div className="img-inner">
                 <img alt="execom" src={adam} />
               </div>
             </div>
-            <div class="text-container">
+            <div className="text-container">
               <h3>Nasreen K Basheer</h3>
               <h5 className="text-sm">Chairperson</h5>
               <div className="flex flex-row gap-8 mt-3 justify-center ">
-                <a href="tel:9605204433">
+                <a href="tel:919605204433" target="_blank" rel="noreferrer">
                   <BsTelephoneFill />
                 </a>
-                <a href="mailto:nasreenkbasheer.mec@gmail.com">
+                <a href="mailto:nasreenkbasheer.mec@gmail.com" target="_blank" rel="noreferrer">
                   <BsFillEnvelopeFill />
                 </a>
-                <a href="https://www.linkedin.com/in/nasreen-k-basheer-6795331a5">
+                <a href="https://www.linkedin.com/in/nasreen-k-basheer-6795331a5" target="_blank" rel="noreferrer">
                   <BsLinkedin />{" "}
                 </a>
               </div>
@@ -82,23 +82,23 @@ export const Contact = () => {
           }}
           className="gap-4 mx-auto"
         >
-          <div class="a-box">
-            <div class="img-container">
-              <div class="img-inner">
+          <div className="a-box">
+            <div className="img-container">
+              <div className="img-inner">
                 <img alt="execom" src={hemanth} />
               </div>
             </div>
-            <div class="text-container">
+            <div className="text-container">
               <h3>Hemanth Sagar J C</h3>
               <h5 className="text-sm">General Secretary</h5>
               <div className="flex flex-row gap-8 mt-3 justify-center">
-                <a href="">
+                <a href="tel:917012910210" target="_blank" rel="noreferrer">
                   <BsTelephoneFill />
                 </a>
-                <a href="">
+                <a href="mailto:hemanthsagar.mec@gmail.com" target="_blank" rel="noreferrer">
                   <BsFillEnvelopeFill />
                 </a>
-                <a href="https://www.linkedin.com/in/hemanth-sagar-j-c-292a98195">
+                <a href="https://www.linkedin.com/in/hemanth-sagar-j-c-292a98195" target="_blank" rel="noreferrer">
                   <BsLinkedin />{" "}
                 </a>
               </div>
@@ -115,24 +115,24 @@ export const Contact = () => {
           }}
           className="gap-4 mx-auto"
         >
-          <div class="a-box">
-            <div class="img-container">
-              <div class="img-inner">
+          <div className="a-box">
+            <div className="img-container">
+              <div className="img-inner">
                 <img alt="execom" src={sebin} />
               </div>
             </div>
-            <div class="text-container">
+            <div className="text-container">
               <h3>Sebin Davis</h3>
 
               <h5 className="text-sm">Joint Secretary</h5>
               <div className="flex flex-row gap-8 mt-3 justify-center">
-                <a href="">
+                <a href="tel:918921212340"  target="_blank" rel="noreferrer">
                   <BsTelephoneFill />
                 </a>
-                <a href="">
+                <a href="mailto:sebindavis.mec@gmail.com"  target="_blank" rel="noreferrer">
                   <BsFillEnvelopeFill />
                 </a>
-                <a href="https://www.linkedin.com/in/hemanth-sagar-j-c-292a98195">
+                <a href="https://www.linkedin.com/in/sebin-davis-344782195"  target="_blank" rel="noreferrer">
                   <BsLinkedin />{" "}
                 </a>
               </div>
@@ -150,24 +150,24 @@ export const Contact = () => {
           }}
           className="gap-4 pb-5 mx-auto"
         >
-          <div class="a-box">
-            <div class="img-container">
-              <div class="img-inner">
+          <div className="a-box">
+            <div className="img-container">
+              <div className="img-inner">
                 <img alt="execom" src={samantha} />
               </div>
             </div>
-            <div class="text-container">
+            <div className="text-container">
               <h3>Ananda Sai</h3>
 
               <h5 className="text-sm">Talks Manager</h5>
               <div className="flex flex-row gap-8 mt-3  justify-center  ">
-                <a href="">
+                <a href="tel:918086544153"  target="_blank" rel="noreferrer">
                   <BsTelephoneFill />
                 </a>
-                <a href="">
+                <a href="mailto:anandasaia.mec@gmail.com"  target="_blank" rel="noreferrer">
                   <BsFillEnvelopeFill />
                 </a>
-                <a href="">
+                <a href="https://www.linkedin.com/in/anandasaia"  target="_blank" rel="noreferrer">
                   <BsLinkedin />{" "}
                 </a>
               </div>
@@ -180,21 +180,21 @@ export const Contact = () => {
       <div className="block md:hidden">
         <Footer />
       </div>
-      <div className=" hidden mx-auto md:block h-[0.6px] bg-[#00000042] items-center flex self-center w-[80%] "></div>
-      <div className=" hidden footer-bg min-h-[300px]  text-white p-5 md:px-5 md:py-0   items-center md:grid md:grid-cols-3 md:grid-rows-1 md:gap-4">
+      <div className="hidden mx-auto md:block h-[0.6px] bg-[#00000042] items-center flex self-center w-[80%] "></div>
+      <div className="hidden footer-bg min-h-[300px]  text-white p-5 md:px-5 md:py-0   items-center md:grid md:grid-cols-3 md:grid-rows-1 md:gap-4">
         <div className="flex flex-col content-center items-center gap-4 md:col-start-2 md:row-start-3 order-2">
           <div className="flex flex-row justify-end items-center gap-8 md:gap-16 md:col-start-2 md:row-end-1 pt-5">
-            <a href="" className="hover:text-white">
+            <a href="https://www.facebook.com/excelmec" target="_blank" rel="noreferrer">
               <FaFacebookF size={22} fill="#D31E1E" />
             </a>
-            <a href="">
-              <RiInstagramFill size={22} fill="#D31E1E" />
+            <a href="https://www.instagram.com/excelmec/">
+              <RiInstagramFill size={22} fill="#D31E1E" target="_blank" rel="noreferrer"/>
             </a>
-            <a href="">
-              <BsTwitter size={22} fill="#D31E1E" />
+            <a href="https://twitter.com/excelmec">
+              <BsTwitter size={22} fill="#D31E1E" target="_blank" rel="noreferrer"/>
             </a>
-            <a href="">
-              <FaLinkedinIn size={22} fill="#D31E1E" />
+            <a href="https://www.linkedin.com/company/excelmec/">
+              <FaLinkedinIn size={22} fill="#D31E1E" target="_blank" rel="noreferrer"/>
             </a>
           </div>
           <div className="hidden md:block text-[#D31E1E] ">
@@ -209,10 +209,10 @@ export const Contact = () => {
         </div>
 
         <div className="  grid grid-col items-center content-center  md:col-start-1 md:row-start-3 order-1">
-          <img className="mx-auto scale-75 md:scale-100  " src={excellogo} />
+          <img className="mx-auto scale-75 md:scale-100" src={excellogo} alt=""/>
         </div>
         <div className="flex flex-col items-center  order-3 md:col-start-3 md:row-start-3">
-          <img className=" scale-75 md:scale-100 " src={modellogo} />
+          <img className=" scale-75 md:scale-100 " src={modellogo} alt=""/>
 
           <div className="block md:hidden whitespace-nowrap text-[#D31E1E] ">
             <p>

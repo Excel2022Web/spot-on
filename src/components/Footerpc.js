@@ -42,10 +42,10 @@ export const Footerpc = () => {
         </div>
 
         <div className="  grid grid-col items-center content-center  md:col-start-1 md:row-start-3 order-1">
-          <img className="mx-auto scale-75 md:scale-100  " src={excellogo} />
+          <img className="mx-auto scale-75 md:scale-100  " src={excellogo} alt=""/>
         </div>
         <div className="flex flex-col items-center  order-3 md:col-start-3 md:row-start-3">
-          <img className=" scale-75 md:scale-100 " src={modellogo} />
+          <img className=" scale-75 md:scale-100 " src={modellogo} alt=""/>
 
           <div className="block md:hidden whitespace-nowrap text-[#D31E1E] ">
             <p>

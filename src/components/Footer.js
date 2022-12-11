@@ -22,35 +22,16 @@ const Footer = () => {
           </div>
 
           <div className="footer-social-socialmedia">
-            <a
-              href="https://www.facebook.com/excelmec"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FaFacebookF 
-                
-                className="contact_social_icon"
-              />
+            <a href="https://www.facebook.com/excelmec" target="_blank" rel="noreferrer">
+              <FaFacebookF className="contact_social_icon" />
             </a>
-            <a
-              href="https://www.instagram.com/excelmec/"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://www.instagram.com/excelmec/" target="_blank" rel="noreferrer">
               <RiInstagramFill className="contact_social_icon" />
             </a>
-            <a
-              href="https://www.linkedin.com/company/excelmec/"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://www.linkedin.com/company/excelmec/" target="_blank" rel="noreferrer">
               <FaLinkedinIn className="contact_social_icon" />
             </a>
-            <a
-              href="https://twitter.com/excelmec"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://twitter.com/excelmec" target="_blank" rel="noreferrer">
               <BsTwitter className="contact_social_icon" />
             </a>
           </div>

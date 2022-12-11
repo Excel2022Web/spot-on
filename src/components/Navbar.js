@@ -22,16 +22,16 @@ $(document).ready(function () {
 
 export const Navbar = () => {
   return (
-    <nav class="  navbar navbar-expand-lg navbar-light z-20 shadow-sm bg-white  ">
-      <div class="container-fluid">
-        <div class=" nav-item title nav-item">
-          <a class="navbar-brand d-lg-none   title " href="#">
+    <nav className="navbar navbar-expand-lg navbar-light z-20 shadow-sm bg-white  ">
+      <div className="container-fluid">
+        <div className=" nav-item title nav-item">
+          <a className="navbar-brand d-lg-none title" href="/">
             SPOT ON
           </a>
         </div>
-        <button class="d-lg-none first-button mr-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+        <button className="d-lg-none first-button mr-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
     aria-controls="navbarSupportedContent20" aria-expanded="false" aria-label="Toggle navigation">
-    <div class="navbar-togglerY animated-icon1"><span></span><span></span><span></span></div>
+    <div className="navbar-togglerY animated-icon1"><span></span><span></span><span></span></div>
   </button>
 
 
@@ -47,8 +47,8 @@ export const Navbar = () => {
                 About
               </a>
             </li>
-            <div class="  d-none d-md-block nav-item title mx-[60px] md:mx-[100px]">
-              <a class="nav-link title whitespace-nowrap  " href="#">
+            <div className="  d-none d-md-block nav-item title mx-[60px] md:mx-[100px]">
+              <a className="nav-link title whitespace-nowrap" href="/">
                 SPOT ON
               </a>
             </div>

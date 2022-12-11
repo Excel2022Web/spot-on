@@ -24,7 +24,7 @@ export const Home = () => {
             initial={{ opacity: 0, y: 100 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 1.8, duration: 1 }}
-            class="md:col-starts-2 content-center button1 text-white font-bold py-2 px-4 mt-2 rounded hover:bg-red-600"
+            className="md:col-starts-2 content-center button1 text-white font-bold py-2 px-4 mt-2 rounded hover:bg-red-600"
           >
             REGISTER NOW
           </motion.button>
