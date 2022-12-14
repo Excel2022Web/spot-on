@@ -26,7 +26,7 @@ export const Sponsors = () => {
           style={{
             transform: isInView ? "none" : "translateY(-200px)",
             opacity: isInView ? 1 : 0,
-            transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
+            transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.8s",
           }}
           alt=""
           src={clubfm}
@@ -36,7 +36,7 @@ export const Sponsors = () => {
           style={{
             transform: isInView ? "none" : "translateY(-200px)",
             opacity: isInView ? 1 : 0,
-            transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
+            transition: "all 1.1s cubic-bezier(0.17, 0.55, 0.55, 1) 1s",
           }}
           alt=""
           src={keyvalue}

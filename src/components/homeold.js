@@ -19,7 +19,7 @@ export const Homeold = () => {
           </button>
         </div>
         </div>
-        <div className="absolute ml-5 md:left-[600px] xl:left-[952px] top-[200px] xl:md:top-[270px] px-2">
+        <div className="absolute ml-5 left-[600px] xl:left-[952px] top-[200px] xl:md:top-[270px] px-2">
           <p className="maintext ">
             MAKE YOUR <br />
             VOICE COUNT!

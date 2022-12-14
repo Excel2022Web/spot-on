@@ -5,13 +5,18 @@ import { motion } from "framer-motion";
 
 const Homemobile = () => {
   return (
-    <div className="phasesbg2 grid grid-cols-1 items-center content-center">
+    <motion.div
+      initial={{ opacity: 0, y: -200 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: 0.2, duration: 1 }}
+      className="phasesbg2 grid grid-cols-1 items-center content-center"
+    >
       <div className="  flex flex-col items-center content-center pb-16 ">
         <div className=" scale-[0.7]">
           <motion.img
             initial={{ opacity: 0, y: -200 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.5, duration: 1 }}
+            transition={{ delay: 1, duration: 1 }}
             src={centerimg}
             alt="jzf"
             className="z-1"
@@ -24,7 +29,7 @@ const Homemobile = () => {
               <motion.span
                 initial={{ opacity: 0, y: -200 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 1, duration: 1 }}
+                transition={{ delay: 1.2, duration: 1 }}
               >
                 MAKE
               </motion.span>
@@ -66,7 +71,7 @@ const Homemobile = () => {
           </motion.button>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
