@@ -25,7 +25,7 @@ export const Contact = () => {
   const isInView2 = useInView(ref2);
 
   return (
-    <div ref={ref} className="md:h-[100vh] ">
+    <div ref={ref} className=" ">
       <motion.div
         style={{
           transform: isInView ? "none" : "translateX(-200px)",

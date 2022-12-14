@@ -46,7 +46,7 @@ function App() {
           <div>
             <Sponsors />
           </div>
-          <div className="contact md:h-[100vh] " id="contact">
+          <div className="contact  " id="contact">
             <Contact />
           </div>
         </div>
