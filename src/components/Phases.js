@@ -7,12 +7,12 @@ export const Phases = () => {
   const phaseCardStyle =
     "w-auto flex-1  h-auto p-2 md:p-4 container1  rounded-xl  pt-5 max-w-[500px] max-h-[600px]";
   const phaseNumberStyle =
-    "text-center text-[28px] md:text-[30px] font-semibold";
+    "text-center text-xl md:text-xl font-semibold";
 
-  const phaseDescriptionStyle = "px-4  text-[16px] md:text-[17.5px]";
+  const phaseDescriptionStyle = "px-4  text-xl md:text-[17.5px]";
 
   return (
-    <div ref={ref} className=" phasesbg text-white px-2  md:h-[100vh] ">
+    <div ref={ref} className=" phasesbg text-white px-2  md:min-h-[100vh] ">
       <div className="flex flex-col  pl-10 py-5">
         <motion.h3
           style={{
@@ -20,7 +20,7 @@ export const Phases = () => {
             opacity: isInView ? 1 : 0,
             transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
           }}
-          className="text-[32px] flex-start  px-2"
+          className="text-[32px] flex-start mt-2  px-2"
         >
           PHASE 1 - ONLINE
         </motion.h3>

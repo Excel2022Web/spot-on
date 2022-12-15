@@ -66,7 +66,7 @@ export function Carousel() {
   const phaseDescriptionStyle = "p-4 md:p-6 text-[16px] md:text-[18px]";
 
   return (
-    <div className="phasesbg h-[100vh]">
+    <div className="phasesbg min-h-[100vh]">
       <div className="flex flex-col text-white   py-5">
         <h3 className="text-[32px] text-center items-center   px-2">
           PHASE 1 - ONLINE
