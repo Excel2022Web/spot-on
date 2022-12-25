@@ -184,18 +184,17 @@ export function Carousel() {
                     transition={{ duration: 1, delay: 0.5 }}
                     className={phaseCardStyle}
                   >
-                    <h4 className={phaseNumberStyle}>Track 1</h4>
+                    <h4 className={phaseNumberStyle}>Track 2</h4>
 
                     <p className={phaseDescriptionStyle}>
                       Rules:
                       <br />
                       <br />
-                      1. The essay must not exceed 1000 words in length.
+                      1. The story must not exceed 800 words in length.
                       <br />
-                      2. Prefer issues that have multiple valid (opposing)
-                      viewpoints.
+                      2. The story must have at least two characters.
                       <br />
-                      3. Avoid speculation when initially presenting the issue.
+                      3. The main character of the story must be an inanimate object.
                     </p>
                   </motion.div>
                 </Modal>
