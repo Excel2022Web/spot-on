@@ -13,14 +13,14 @@ export const Phases = () => {
 
   return (
     <div ref={ref} className=" phasesbg text-white px-2  md:min-h-[100vh] ">
-      <div className="flex flex-col  pl-10 py-5">
+      <div className="flex flex-col mt-4 pl-10 py-8">
         <motion.h3
           style={{
             transform: isInView ? "none" : "translateX(-200px)",
             opacity: isInView ? 1 : 0,
             transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
           }}
-          className="text-[32px] flex-start mt-2  px-2"
+          className="text-[32px] flex-start mt-2  px-2 py-5"
         >
           PHASE 1 - ONLINE
         </motion.h3>
