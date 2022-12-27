@@ -41,8 +41,8 @@ export const Footerpc = () => {
           </div>
         </div>
 
-        <div className="  grid grid-col items-center content-center  md:col-start-1 md:row-start-3 order-1">
-          <img className="mx-auto scale-75 md:scale-100  " src={excellogo} alt=""/>
+        <div className="grid grid-col items-center content-center  md:col-start-1 md:row-start-3 order-1">
+          <img className="mx-auto scale-75 md:scale-100 " src={excellogo} alt=""/>
         </div>
         <div className="flex flex-col items-center  order-3 md:col-start-3 md:row-start-3">
           <img className=" scale-75 md:scale-100 " src={modellogo} alt=""/>

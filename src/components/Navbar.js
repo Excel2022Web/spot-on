@@ -35,15 +35,15 @@ export const Navbar = () => {
   </button>
 
 
-        <div class="collapse navbar-collapse  z-2" id="navbar">
-          <ul class="navbar-nav  mx-auto gap-20">
-            <li class="nav-item " >
-              <a class="nav-link single " href="#home">
+        <div className="collapse navbar-collapse  z-2" id="navbar">
+          <ul className="navbar-nav  mx-auto gap-20">
+            <li className="nav-item " >
+              <a className="nav-link single " href="#home">
                 Home
               </a>
             </li>
-            <li class="nav-item  ">
-              <a class="nav-link single" href="#about">
+            <li className="nav-item  ">
+              <a className="nav-link single" href="#about">
                 About
               </a>
             </li>
@@ -53,13 +53,13 @@ export const Navbar = () => {
               </a>
             </div>
 
-            <li class="nav-item  ">
-              <a class="nav-link single" href="#phases">
+            <li className="nav-item  ">
+              <a className="nav-link single" href="#phases">
                 Phases
               </a>
             </li>
-            <li class="nav-item  ">
-              <a class="nav-link single" href="#contact">
+            <li className="nav-item  ">
+              <a className="nav-link single" href="#contact">
                 Contact
               </a>
             </li>
