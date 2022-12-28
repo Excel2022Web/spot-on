@@ -20,7 +20,7 @@ export const Phases = () => {
             opacity: isInView ? 1 : 0,
             transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
           }}
-          className="text-[32px] flex-start mt-2  px-2 py-5"
+          className="text-[32px] flex-start mt-2 px-2 py-5"
         >
           PHASE 1 - ONLINE
         </motion.h3>
@@ -30,7 +30,7 @@ export const Phases = () => {
             opacity: isInView ? 1 : 0,
             transition: "all 1.3s cubic-bezier(0.17, 0.55, 0.55, 1) 0.6s",
           }}
-          className="text-center items-center font-light md:text-[28px]"
+          className="text-center items-center font-light md:text-[28px] px-2"
         >
           Submit in one or both of the following tracks
         </motion.h2>

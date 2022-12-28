@@ -19,6 +19,16 @@ export const Home = () => {
             className="z-1"
           />
         </div>
+        <motion.p
+          initial={{ x: 100, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ delay: 2, duration: 1 }}
+          className="maintext"
+        >
+          MAKE YOUR <br />
+          VOICE COUNT!
+          <br />
+        </motion.p>
         <div className="md:self-center mt-3">
           <motion.a
             href="https://forms.gle/K244bUbPdbfNJM9J8"
@@ -35,16 +45,6 @@ export const Home = () => {
       </div>
 
       <div className=" ml-5  absolute md:left-[900px]  xl:left-[952px] top-[270px] xl:md:top-[270px] px-2">
-        <motion.p
-          initial={{ x: 100, opacity: 0 }}
-          animate={{ x: 0, opacity: 1 }}
-          transition={{ delay: 2, duration: 1 }}
-          className="maintext  "
-        >
-          MAKE YOUR <br />
-          VOICE COUNT!
-          <br />
-        </motion.p>
       </div>
       <motion.img
         initial={{ y: -400, opacity: 0 }}
