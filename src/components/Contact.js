@@ -42,7 +42,7 @@ export const Contact = () => {
       </motion.div>
       <div
         ref={ref2}
-        className="flex flex-col flex-wrap mx-auto  justify-center md:flex-row md:justify-around md:px-5 md:py-10 gap-16"
+        className="flex flex-col flex-wrap mx-auto md:grid md:grid-cols-4  md:justify-center self-center  md:px-5 md:py-10 gap-16"
       >
         <motion.div
           style={{
@@ -151,7 +151,7 @@ export const Contact = () => {
             opacity: isInView2 ? 1 : 0,
             transition: "all 1.5s cubic-bezier(0.17, 0.55, 0.55, 1) 1s",
           }}
-          className="gap-4 pb-5 mx-auto"
+          className="gap-4 pb-5 mx-auto row-start-2 row-end-2 col-start-2 col-end-3"
         >
           <div className="a-box">
             <div className="img-container">
@@ -223,7 +223,7 @@ export const Contact = () => {
             opacity: isInView2 ? 1 : 0,
             transition: "all 1.3s cubic-bezier(0.17, 0.55, 0.55, 1) 0.9s",
           }}
-          className="gap-4 mx-auto"
+          className="gap-4 mx-auto col-start-3 col-end-4"
         >
           <div className="a-box">
             <div className="img-container">
