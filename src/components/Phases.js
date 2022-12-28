@@ -76,7 +76,7 @@ export const Phases = () => {
 
           <p className={phaseDescriptionStyle}>
             Write a short story, the main character of which is an inanimate
-            object. Go wild with quirky, humourous, insightful or deep plots of
+            object. Go wild with quirky, humorous, insightful or deep plots of
             your liking, so long as it is from the object's perspective. Ex. A
             coffin wishing it were a cupboard instead.
             <br />

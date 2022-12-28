@@ -61,14 +61,17 @@ const Homemobile = () => {
             </motion.p>
           </div>
 
-          <motion.button
+          <motion.a
+            href="https://forms.gle/K244bUbPdbfNJM9J8"
+            target="_blank"
+            rel="noreferrer"
             initial={{ opacity: 0, y: 200 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 2.8, duration: 1 }}
             className="content-center button1 text-white font-bold py-2 px-4 mt-2 rounded hover:bg-red-600"
           >
             REGISTER NOW
-          </motion.button>
+          </motion.a>
         </div>
       </div>
     </motion.div>
