@@ -307,14 +307,14 @@ section {
   background-image: url('./assets/thebox2.png');
   background-repeat: no-repeat;
   background-size: 100em;
-  background-position: center;
+  background-position: center;;
+  background-size: cover;
   z-index: 10;
-
 }
 .phasesbg2 {
   background-image: url('./assets/thebox2.png');
   background-repeat: no-repeat;
- background-position: center;
+  background-position: center;
   z-index: 10;
 }
 .phase-text {
