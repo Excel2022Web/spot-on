@@ -14,7 +14,7 @@ export const Phases = () => {
   return (
     <div ref={ref} className=" phasesbg text-white px-2  md:min-h-[100vh] ">
       <div className="flex flex-col mt-4 pl-10 py-8">
-        <motion.h3
+        {/* <motion.h3
           style={{
             transform: isInView ? "none" : "translateX(-200px)",
             opacity: isInView ? 1 : 0,
@@ -23,7 +23,18 @@ export const Phases = () => {
           className="text-[32px] flex-start mt-2 px-2 py-5"
         >
           PHASE 1 - ONLINE
-        </motion.h3>
+        </motion.h3> */}
+        <motion.div
+          style={{
+            transform: isInView ? "none" : "translateX(-200px)",
+            opacity: isInView ? 1 : 0,
+            transition: "all 0.7s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
+          }}
+          className="flex flex-row items-center pl-5 md:pl-10 "
+        >
+          <div className="w-[6px] h-[38px] bg-[#D70F0F] overflow-x-hidden"></div>
+          <h3 className="text-[32px] py-5  px-2">PHASE 1 - ONLINE</h3>
+        </motion.div>
         <motion.h2
           style={{
             transform: isInView ? "none" : "translateY(-200px)",
