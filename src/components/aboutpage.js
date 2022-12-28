@@ -37,22 +37,15 @@ export const Aboutpage = () => {
             className="about-text text-[18px] leading-[25px] md:leading-[30px] md:text-[24px] "
           >
             <span className="italic ">
-              “Communication works for those who work at it “
+              “The worst speech you'll ever give, will be far better than the one you never give.“
             </span>
             <br />
-            <span className="font-bold">- John Powell</span>
+            <span className="font-bold">- Fred Miller</span>
             <br />
             <br />
-            Welcome to Spot On, an oratory competition for students, organized
-            by Excel 2021 in collaboration with Toastmasters International. Spot
-            On is a one-of-a-kind platform for the aspiring orator in you, to
-            test your communicative prowess and your ability to conjure minds
-            with the magic of words. Showcase your talent to speak creatively,
-            your ability to counter logically and conquer people with
-            confidence! Register for Spot On before Dec 1st 2021, for a mere fee
-            of ₹30 and win exciting prizes!
+              Slice through the stage with razor-sharp words with us at Spot On, a unique opportunity presented by Excel 2022, in collaboration with Toastmasters International! As our slogan goes this year, write brilliance, speak wisdom with confidence to bare to all the orator within and embrace victory. Spot On is a platform like no other with creative challenges designed to bring out the potential within you. Submit your entries for Phase 1 of Spot On by January 8, 2022 to have a shot at a prize pool of INR 3K and qualify for Phase 2, which will be held offline during Excel!
           </motion.p>
-          <motion.button
+          {/* <motion.button
             style={{
               transform: isInView ? "none" : "translateY(200px)",
               opacity: isInView ? 1 : 0,
@@ -61,7 +54,7 @@ export const Aboutpage = () => {
             className="button2 text-white font-bold py-2 px-4 mt-2 rounded "
           >
             RULES AND GUIDELINES
-          </motion.button>
+          </motion.button> */}
         </div>
       </div>
       <div></div>

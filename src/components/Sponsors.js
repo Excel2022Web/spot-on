@@ -19,9 +19,9 @@ export const Sponsors = () => {
         className="flex flex-row items-center pl-5 md:pl-10 "
       >
         <div className="w-[6px] h-[38px] bg-[#D70F0F] overflow-x-hidden"></div>
-        <h3 className="text-[32px] py-5 md:py-5 px-2">SPONSORS</h3>
+        <h3 className="text-[32px] py-5 md:py-5 px-2">COLLABORATORS</h3>
       </motion.div>
-      <div className="flex flex-col md:flex-row gap-18 items-center justify-center content-center ">
+      <div className="flex flex-col md:flex-row gap-24 items-center justify-center content-center ">
         <img
           style={{
             transform: isInView ? "none" : "translateY(-200px)",

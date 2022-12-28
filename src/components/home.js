@@ -20,14 +20,17 @@ export const Home = () => {
           />
         </div>
         <div className="md:self-center mt-3">
-          <motion.button
+          <motion.a
+            href="https://forms.gle/K244bUbPdbfNJM9J8"
+            target="_blank"
+            rel="noreferrer"
             initial={{ opacity: 0, y: 100 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 1.8, duration: 1 }}
             className="md:col-starts-2 content-center button1 text-white font-bold py-2 px-4 mt-2 rounded hover:bg-red-600"
           >
             REGISTER NOW
-          </motion.button>
+          </motion.a>
         </div>
       </div>
 
