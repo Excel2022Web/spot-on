@@ -36,7 +36,7 @@ export const Aboutpage = () => {
               opacity: isInView ? 1 : 0,
               transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
             }}
-            className="about-text text-[18px] leading-[25px] md:leading-[30px] md:text-[24px] "
+            className="about-text text-lg leading-[25px] md:leading-[30px] md:text-[24px] "
           >
 
             <span className="italic ">
