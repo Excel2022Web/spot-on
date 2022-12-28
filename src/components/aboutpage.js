@@ -7,7 +7,7 @@ export const Aboutpage = () => {
   const isInView = useInView(ref);
 
   return (
-    <motion.div ref={ref}>
+    <motion.div ref={ref} className="h-auto">
       <motion.div
         style={{
           transform: isInView ? "none" : "translateX(-200px)",
@@ -37,19 +37,31 @@ export const Aboutpage = () => {
             className="about-text text-[18px] leading-[25px] md:leading-[30px] md:text-[24px] "
           >
             <span className="italic ">
-              “The worst speech you'll ever give, will be far better than the one you never give.“
+              “The worst speech you'll ever give, will be far better than the
+              one you never give.“
             </span>
             <br />
             <span className="font-bold">- Fred Miller</span>
             <br />
             <br />
-            Slice through the stage with razor-sharp words and bring your pen down to free your imagination from the confines of your mind with us at Spot On, a unique opportunity presented by Excel 2022, in collaboration with Toastmasters International! As our slogan goes this year, write brilliance, speak wisdom with confidence to bare to all the orator within and embrace victory. 
-            <br /><br />
-            Spot On is a platform like no other with creative challenges designed to bring out the potential within you. <br />
-            This year, we bring to you two phases - one for those who seek to fill out bestsellers in the next decade and the other for the ones who wish to hold audiences captive at their every word. <br />
-            Submit your entries for Phase 1 of Spot On by January 8, 2022 to have a shot at a prize pool of INR 3K and stay tuned for Phase 2, which will be held offline during Excel! <br />
-            <b>Note:</b> The two Spot On phases for this year are independent and you may take part in either or both of them.
-
+            Slice through the stage with razor-sharp words and bring your pen
+            down to free your imagination from the confines of your mind with us
+            at Spot On, a unique opportunity presented by Excel 2022, in
+            collaboration with Toastmasters International! As our slogan goes
+            this year, write brilliance, speak wisdom with confidence to bare to
+            all the orator within and embrace victory.
+            <br />
+            <br />
+            Spot On is a platform like no other with creative challenges
+            designed to bring out the potential within you. <br />
+            This year, we bring to you two phases - one for those who seek to
+            fill out bestsellers in the next decade and the other for the ones
+            who wish to hold audiences captive at their every word. <br />
+            Submit your entries for Phase 1 of Spot On by January 8, 2022 to
+            have a shot at a prize pool of INR 3K and stay tuned for Phase 2,
+            which will be held offline during Excel! <br />
+            <b>Note:</b> The two Spot On phases for this year are independent
+            and you may take part in either or both of them.
           </motion.p>
           {/* <motion.button
             style={{

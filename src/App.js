@@ -37,7 +37,7 @@ function App() {
           <div>
             <Lobby />
           </div>
-          <div className="about md:h-[100vh] xl:h-[100vh] " id="about">
+          <div className="about h-auto md:h-[100vh] xl:h-[100vh] " id="about">
             <Aboutpage />
           </div>
           <div className=" " id="phases">
