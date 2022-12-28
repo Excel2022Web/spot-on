@@ -2,6 +2,9 @@ import React, { useRef } from "react";
 import adam from "../assets/Nasreen.jpeg";
 import hemanth from '../assets/hemanth.jpeg'
 import sebin from '../assets/Sebin.jpeg'
+import nikita from '../assets/nikita.jpeg'
+import annama from '../assets/annama.jpeg'
+
 
 import samantha from "../assets/sai.jpeg";
 import excellogo from "../assets/excel_logo.svg";
@@ -175,6 +178,80 @@ export const Contact = () => {
             </div>
           </div>
         </motion.div>
+
+        {/*  */}
+
+        <motion.div
+          
+          style={{
+            transform: isInView2 ? "none" : "translateX(-200px)",
+            opacity: isInView2 ? 1 : 0,
+            transition: "all 1.3s cubic-bezier(0.17, 0.55, 0.55, 1) 0.9s",
+          }}
+          className="gap-4 mx-auto"
+        >
+          <div className="a-box">
+            <div className="img-container">
+              <div className="img-inner">
+                <img alt="execom" src={nikita} />
+              </div>
+            </div>
+            <div className="text-container">
+              <h3>Nikita Menon</h3>
+
+              <h5 className="text-sm">Event Head</h5>
+              <div className="flex flex-row gap-8 mt-3 justify-center">
+                <a href="tel:8137927457"  target="_blank" rel="noreferrer">
+                  <BsTelephoneFill />
+                </a>
+                <a href="mailto:nikitamenon2510@gmail.com"  target="_blank" rel="noreferrer">
+                  <BsFillEnvelopeFill />
+                </a>
+                <a href="https://www.linkedin.com/in/nikita-menon-b2248079"  target="_blank" rel="noreferrer">
+                  <BsLinkedin />{" "}
+                </a>
+              </div>
+              <div></div>
+            </div>
+          </div>
+        </motion.div>
+
+        <motion.div
+          
+          style={{
+            transform: isInView2 ? "none" : "translateX(-200px)",
+            opacity: isInView2 ? 1 : 0,
+            transition: "all 1.3s cubic-bezier(0.17, 0.55, 0.55, 1) 0.9s",
+          }}
+          className="gap-4 mx-auto"
+        >
+          <div className="a-box">
+            <div className="img-container">
+              <div className="img-inner">
+                <img alt="execom" src={annama} />
+              </div>
+            </div>
+            <div className="text-container">
+              <h3>Anna M Panicker</h3>
+
+              <h5 className="text-sm">Event Head</h5>
+              <div className="flex flex-row gap-8 mt-3 justify-center">
+                <a href="tel:9495929709"  target="_blank" rel="noreferrer">
+                  <BsTelephoneFill />
+                </a>
+                <a href="mailto:annampanicker@gmail.com"  target="_blank" rel="noreferrer">
+                  <BsFillEnvelopeFill />
+                </a>
+                <a href="https://www.linkedin.com/in/anna-m-panicker-b632aa1a3"  target="_blank" rel="noreferrer">
+                  <BsLinkedin />{" "}
+                </a>
+              </div>
+              <div></div>
+            </div>
+          </div>
+        </motion.div>
+
+        {/*  */}
       </div>
 
       <div className="block md:hidden">
