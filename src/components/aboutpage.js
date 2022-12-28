@@ -27,7 +27,9 @@ export const Aboutpage = () => {
             className="mic -z-10 overflow-hidden top-0 relative"
           />
         </div>
-        <div className="about-text-box md:right-0 md:p-5  md:w-[1028px] md:h-[535px]">
+        <div className="about-text-box md:right-0 md:p-5  md:w-[1028px] md:h-auto">
+
+
           <motion.p
             style={{
               transform: isInView ? "none" : "translateY(200px)",
@@ -36,6 +38,7 @@ export const Aboutpage = () => {
             }}
             className="about-text text-[18px] leading-[25px] md:leading-[30px] md:text-[24px] "
           >
+
             <span className="italic ">
               “The worst speech you'll ever give, will be far better than the one you never give.“
             </span>
@@ -51,16 +54,7 @@ export const Aboutpage = () => {
             <b>Note:</b> The two Spot On phases for this year are independent and you may take part in either or both of them.
 
           </motion.p>
-          {/* <motion.button
-            style={{
-              transform: isInView ? "none" : "translateY(200px)",
-              opacity: isInView ? 1 : 0,
-              transition: "all 1.3s cubic-bezier(0.17, 0.55, 0.55, 1) 0.9s",
-            }}
-            className="button2 text-white font-bold py-2 px-4 mt-2 rounded "
-          >
-            RULES AND GUIDELINES
-          </motion.button> */}
+          
         </div>
       </div>
       <div></div>
