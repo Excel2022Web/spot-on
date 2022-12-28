@@ -306,20 +306,16 @@ section {
 .phasesbg {
   background-image: url('./assets/thebox2.png');
   background-repeat: no-repeat;
- background-size: 100em;
- background-position: center;
+  background-size: 100em;
+  background-position: center;
   z-index: 10;
 
 }
 .phasesbg2 {
   background-image: url('./assets/thebox2.png');
   background-repeat: no-repeat;
-
  background-position: center;
- 
   z-index: 10;
-
-
 }
 .phase-text {
   font-family: "Poppins";
@@ -624,10 +620,8 @@ now override the 3.3 new styles for modern browsers & apply opacity
   background-image: url('./assets/mobilemg2.png');
   background-repeat: no-repeat;
   background-size: 100em auto ;
-  
+  background-size: cover;
   z-index: 10;
-
-
 }
 
 
