@@ -8,7 +8,7 @@ export const Home = () => {
   return (
     <motion.div className=" grid md:grid-cols-3 h-[100vh]">
       <div className=" flex flex-col md:col-start-2 col-starts-1 mt-5 ">
-        <div className="absolute scale-75 md:scale-100 md:static left-[40px] md:self-center md:items-center ">
+        <div className="absolute scale-75 md:scale-85 md:static left-[40px] md:self-center md:items-center ">
           <motion.img
            
             initial={{ opacity: 0, y: -200 }}
@@ -25,9 +25,10 @@ export const Home = () => {
           transition={{ delay: 2, duration: 1 }}
           className="maintext"
         >
-          MAKE YOUR <br />
-          VOICE COUNT!
+          SPEAK WISDOM<br />
+          WRITE BRILLIANCE
           <br />
+          EMBRACE VICTORY
         </motion.p>
         <div className="md:self-center mt-3">
           <motion.a
