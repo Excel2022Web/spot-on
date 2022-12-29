@@ -26,8 +26,7 @@ export const Home = () => {
           className="maintext"
         >
           SPEAK WISDOM<br />
-          WRITE BRILLIANCE
-          <br />
+          WRITE BRILLIANCE<br />
           EMBRACE VICTORY
         </motion.p>
         <div className="md:self-center mt-3">

@@ -31,7 +31,7 @@ const Homemobile = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 1.2, duration: 1 }}
               >
-                MAKE
+                SPEAK WISDOM <br />
               </motion.span>
               {"  "}
               <motion.span
@@ -39,7 +39,7 @@ const Homemobile = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 1.5, duration: 1 }}
               >
-                YOUR
+                WRITE BRILLIANCE <br />
               </motion.span>
               {"  "}
               <motion.span
@@ -47,15 +47,7 @@ const Homemobile = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 2, duration: 1 }}
               >
-                VOICE
-              </motion.span>
-              {"  "}
-              <motion.span
-                initial={{ opacity: 0, y: -200 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 2.5, duration: 1 }}
-              >
-                COUNT!
+                EMBRACE VICTORY
               </motion.span>
               <br />
             </motion.p>

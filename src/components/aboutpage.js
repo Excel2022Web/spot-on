@@ -36,7 +36,7 @@ export const Aboutpage = () => {
               opacity: isInView ? 1 : 0,
               transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
             }}
-            className="about-text text-lg leading-[25px] md:leading-[30px] md:text-[24px] "
+            className="about-text text-lg leading-[25px] md:leading-[30px] md:text-[18px] "
           >
 
             <span className="italic ">
@@ -54,14 +54,15 @@ export const Aboutpage = () => {
             <br />
             <br />
             This year, we bring to you two phases:<br />
-            - One for those who seek to fill out bestsellers in the next decade <br />
-            - And the other for those who wish to hold audiences captive at their every word. 
-            <br />
+            <li>One for those who seek to fill out bestsellers in the next decade</li> 
+            <li>And the other for those who wish to hold audiences captive at their every word. </li>
             <br />
             Submit your entries for Phase 1 of Spot On by January 8, 2022 to have a shot at a prize pool of INR 3K and stay tuned for Phase 2, which will be held offline during Excel!
             <br />
             <br />
-            <span className="font-bold">NOTE:</span> The two Spot On phases for this year are independent and you may take part in either or both of them.
+            <span className="font-bold">NOTE:</span> < br />
+            <li>The two Spot On phases for this year are independent and you may take part in either or both of them. </li>
+            <li>Eligibility: Anyone of or above 16 years of age, studying in a school or college, may take part.</li>
           </motion.p>
           
         </div>
