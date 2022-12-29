@@ -34,11 +34,11 @@ function App() {
           <div className="home " id="home">
             <Responsivehook1 />
           </div>
-          <div>
-            <Lobby />
-          </div>
           <div className="about h-auto md:h-[100vh] xl:h-[100vh] " id="about">
             <Aboutpage />
+          </div>
+          <div>
+            <Lobby />
           </div>
           <div className=" " id="phases">
             <Responsivehook />

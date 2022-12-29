@@ -22,6 +22,7 @@ h2{
   }
 }
 
+
 a {
   color: #ffffff;
   text-decoration: none;
@@ -276,6 +277,12 @@ section {
 .button2 {
   font-weight: 400;
   background-color: var(--text-main);
+}
+
+@media screen and (max-width: 992px) {
+  .mic_mob {
+    display: none;
+  }
 }
 
 /*PHASES*/

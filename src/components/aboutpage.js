@@ -24,7 +24,7 @@ export const Aboutpage = () => {
           <img
             src={mic}
             alt="mic"
-            className="mic -z-10 overflow-hidden top-0 relative"
+            className="mic -z-10 overflow-hidden top-0 relative mic_mob"
           />
         </div>
         <div className="about-text-box md:right-0 md:p-5 md:w-[1028px] md:h-auto">
@@ -36,7 +36,7 @@ export const Aboutpage = () => {
               opacity: isInView ? 1 : 0,
               transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
             }}
-            className="about-text text-lg leading-[25px] md:leading-[30px] md:text-[18px] "
+            className="about-text text-lg leading-[25px] md:leading-[30px] md:text-[18px] px-4"
           >
 
             <span className="italic ">
