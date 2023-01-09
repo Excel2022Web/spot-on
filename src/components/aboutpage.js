@@ -57,7 +57,7 @@ export const Aboutpage = () => {
             <li>One for those who seek to fill out bestsellers in the next decade</li> 
             <li>And the other for those who wish to hold audiences captive at their every word. </li>
             <br />
-            Submit your entries for Phase 1 of Spot On by January 8, 2022 to have a shot at a prize pool of INR 3K and stay tuned for Phase 2, which will be held offline during Excel!
+            Submit your entries for Phase 1 of Spot On by January 20, 2022 to have a shot at a prize pool of INR 3K and stay tuned for Phase 2, which will be held offline during Excel!
             <br />
             <br />
             <span className="font-bold">NOTE:</span> < br />

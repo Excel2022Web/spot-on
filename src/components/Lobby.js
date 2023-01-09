@@ -31,7 +31,7 @@ export const Lobby = () => {
           <h2 className="lobby-text">
             Exciting Cash
             <br />
-            Prices
+            Prizes
           </h2>
         </div>
       </motion.div>
