@@ -31,7 +31,7 @@ export const Home = () => {
         </motion.p>
         <div className="md:self-center mt-3">
           <motion.a
-            href="https://forms.gle/K244bUbPdbfNJM9J8"
+            href="https://forms.gle/WgJw6Ls2qjoCW5XEA"
             target="_blank"
             rel="noreferrer"
             initial={{ opacity: 0, y: 100 }}
@@ -39,7 +39,7 @@ export const Home = () => {
             transition={{ delay: 1.8, duration: 1 }}
             className="md:col-starts-2 content-center button1 text-white font-bold py-2 px-4 mt-2 rounded hover:bg-red-600"
           >
-            REGISTER NOW
+            REGISTER FOR PHASE 2
           </motion.a>
         </div>
       </div>
