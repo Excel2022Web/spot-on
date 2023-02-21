@@ -12,7 +12,7 @@ export const Phases2 = () => {
   const phaseDescriptionStyle = "px-4  text-xl md:text-[17.5px]";
 
   return (
-    <div ref={ref} className=" phasesbg text-white px-2  md:min-h-[100vh] ">
+    <div ref={ref} className=" phasesbg text-white px-2 pb-3 md:min-h-[100vh] md:pb-1">
       <div className="flex flex-col mt-4 pl-10 py-8">
         <motion.div
           style={{
@@ -25,7 +25,7 @@ export const Phases2 = () => {
           <div className="w-[6px] h-[38px] bg-[#D70F0F] overflow-x-hidden"></div>
           <h3 className="text-[32px] py-5  px-2">PHASE 2 - OFFLINE</h3>
         </motion.div>
-        <motion.h2
+        <motion.h3
           style={{
             transform: isInView ? "none" : "translateY(-200px)",
             opacity: isInView ? 1 : 0,
@@ -34,7 +34,7 @@ export const Phases2 = () => {
           className="text-center items-center font-light md:text-[28px] px-2"
         >
           This phase will consist of two rounds as specified below and will be held on March 10th, with the venue being Govt. Model Engineering College.
-        </motion.h2>
+        </motion.h3>
       </div>
       <motion.div className="flex flex-col md:flex-row justify-center pb-4 px-10 gap-10 md:gap-10">
         <motion.div

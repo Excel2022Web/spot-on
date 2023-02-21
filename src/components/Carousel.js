@@ -77,9 +77,9 @@ export function Carousel() {
         <div className="w-[6px] h-[38px] bg-[#D70F0F] overflow-x-hidden"></div>
         <h3 className="text-[32px] py-2 px-2">PHASE 1 - ONLINE</h3>
         </div>
-        <h2 className="text-center items-center font-light ">
+        <h5 className="text-center items-center font-light ">
           Submit in one or both of the following tracks
-        </h2>
+        </h5>
       </div>
       <Flickity>
         <div className="carousel-cell ">

@@ -9,7 +9,7 @@ export function Carousel2() {
   const phaseNumberStyle =
     "text-center text-[28px] md:text-[30px] font-semibold";
 
-  const phaseDescriptionStyle = "p-4 md:p-6 text-[16px] md:text-[18px]";
+  const phaseDescriptionStyle = "p-2 mb-0 md:p-6 text-[14px] md:text-[18px]";
 
   return (
     <div className="phasesbg min-h-[100vh]">
@@ -23,9 +23,9 @@ export function Carousel2() {
         <div className="w-[6px] h-[38px] bg-[#D70F0F] overflow-x-hidden"></div>
         <h3 className="text-[32px] py-2 px-2">Phase 2 - Offline</h3>
         </div>
-        <h2 className="text-center items-center font-light ">
+        <h5 className="text-center items-center font-light ">
           This phase will consist of two rounds as specified below and will be held on March 10th, with the venue being Govt. Model Engineering College.
-        </h2>
+        </h5>
       </div>
       <Flickity>
         <div className="carousel-cell ">
